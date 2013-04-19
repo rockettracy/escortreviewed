@@ -15,6 +15,9 @@ echo "backup running code: REV: $CURRENT_REVISION ..."
 sudo rm -rf "$TARGET_PATH/bbs_old"
 sudo cp -r "$TARGET_PATH/bbs" "$TARGET_PATH/bbs_old"
 
+echo "pull latest code..."
+sudo git pull
+
 echo "deploy new branch: $BRANCH, REV: $DEPLOY_REV ..."
 sudo cp -r "$SOURCE_PATH/bbs" "$TARGET_PATH/" 
 
