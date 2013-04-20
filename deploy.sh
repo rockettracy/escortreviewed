@@ -1,6 +1,5 @@
 #!/bin/bash
 
-DEPLOY_REV=`git log | grep ^commit | head -1 | cut -d ' ' -f 2`
 BRANCH=`git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/\1/'`
 CURRENT_REVISION=`git log --pretty=format:"%h" -n1`
 DEPLOY_USER=`who -m | cut -d " " -f 1`
@@ -17,6 +16,7 @@ sudo cp -r "$TARGET_PATH/bbs" "$TARGET_PATH/bbs_old"
 
 echo "pull latest code..."
 sudo git pull
+DEPLOY_REV=`git log | grep ^commit | head -1 | cut -d ' ' -f 2`
 
 echo "deploy new branch: $BRANCH, REV: $DEPLOY_REV ..."
 sudo cp -r "$SOURCE_PATH/bbs" "$TARGET_PATH/" 
