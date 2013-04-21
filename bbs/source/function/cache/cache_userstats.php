@@ -13,7 +13,7 @@ if(!defined('IN_DISCUZ')) {
 
 function build_cache_userstats() {
 	global $_G;
-	$totalmembers = C::t('common_member')->count() + 1456; #max total members.
+	$totalmembers = C::t('common_member')->count() + 1456; //max total members.
 	$member = C::t('common_member')->range(0, 1, 'DESC');
 	$member = current($member);
 	$newsetuser = $member['username'];
