@@ -4,7 +4,7 @@
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
- *      $Id: lang_thread.php 25889 2011-11-24 09:52:20Z monkey $
+ *      $Id: lang_thread.php by Valery Votintsev at sources.ru
  */
 
 if(!defined('IN_DISCUZ')) {
@@ -12,8 +12,7 @@ if(!defined('IN_DISCUZ')) {
 }
 
 $lang = array (
-	  'forum_archive' => '存档',
+	  'forum_archive' => 'Archive',//'存档',
 
 
 );
-?>
