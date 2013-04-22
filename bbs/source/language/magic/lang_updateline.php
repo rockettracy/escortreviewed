@@ -4,18 +4,14 @@
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
- *      $Id: lang_updateline.php 27449 2012-02-01 05:32:35Z zhangguosheng $
+ *      $Id: lang_updateline.php 7828 2010-04-14 02:11:48Z monkey $
  */
-
-if(!defined('IN_DISCUZ')) {
-	exit('Access Denied');
-}
 
 $lang = array
 (
-	'updateline_name' => '救生圈',
-	'updateline_desc' => '把自己日志的发布时间更新为当前时间',
-	'updateline_info' => '把自己日志的发布时间更新为当前时间',
+	'updateline_name' => 'Buoy',
+	'updateline_desc' => 'The release of their own time to update the log to the current time',
+	'updateline_info' => 'The release of their own time to update the log to the current time',
 );
 
 ?>

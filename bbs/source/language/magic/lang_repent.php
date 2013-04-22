@@ -4,24 +4,20 @@
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
- *      $Id: lang_repent.php 27449 2012-02-01 05:32:35Z zhangguosheng $
+ *      $Id: lang_repent.php 21648 2011-04-06 09:13:41Z liulanbo $
  */
-
-if(!defined('IN_DISCUZ')) {
-	exit('Access Denied');
-}
 
 $lang = array
 (
-	'repent_name' => '悔悟卡',
-	'repent_desc' => '可以删除自己的帖子',
-	'repent_forum' => '允许使用本道具的版块',
-	'repent_info' => '删除自己的帖子，请输入帖子的 ID',
-	'repent_info_nonexistence' => '请指定要删除的帖子',
-	'repent_succeed' => '您操作的帖子已删除',
-	'repent_info_noperm' => '对不起，主题所在版块不允许使用本道具',
-	'repent_info_user_noperm' => '对不起，您只能删除自己的帖子',
-	'repent_do_not_rushreply' => '不能在抢楼帖中使用此道具',
+	'repent_name' => 'Repentance Card',
+	'repent_desc' => 'can delete your posts',
+	'repent_forum' => 'Allow use of the magics of the Forum',
+	'repent_info' => 'delete your posts please enter the post ID ',
+	'repent_info_nonexistence' => 'Please specify to delete the post',
+	'repent_succeed' => 'Your post has been deleted operation',
+	'repent_info_noperm' => 'Sorry  not allowed to use the forum where the theme magics',
+	'repent_info_user_noperm' => 'Sorry you can only delete your own posts',
+	'repent_do_not_rushreply' => 'posts can not be used in the floor grab the magics',
 );
 
 ?>

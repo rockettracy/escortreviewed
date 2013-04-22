@@ -4,37 +4,33 @@
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
- *      $Id: lang_polllist.php 27449 2012-02-01 05:32:35Z zhangguosheng $
+ *      $Id: lang_polllist.php 11146 2010-05-25 02:52:53Z xupeng $
  */
-
-if(!defined('IN_DISCUZ')) {
-	exit('Access Denied');
-}
 
 $lang = array
 (
-	'polllist_name' => '投票列表',
-	'polllist_desc' => '投票列表调用',
-	'polllist_uids' => '用户UID',
-	'polllist_uids_comment' => '填入指定用户的ID(uid)，多个用户之间用逗号(,)分隔',
-	'polllist_startrow' => '起始数据行数',
-	'polllist_startrow_comment' => '如需设定起始的数据行数，请输入具体数值，0 为从第一行开始，以此类推',
-	'polllist_titlelength' => '标题长度',
-	'polllist_summarylength' => '简介长度',
-	'polllist_orderby' => '投票排序方式',
-	'polllist_orderby_comment' => '设置以哪一字段或方式对投票进行排序',
-	'polllist_orderby_dateline' => '按发布时间倒序',
-	'polllist_orderby_hot' => '按热度倒序',
-	'polllist_orderby_lastvote' => '按最后投票时间倒序',
-	'polllist_orderby_viewnum' => '按查看数倒序',
-	'polllist_orderby_replynum' => '按回复数倒序',
-	'polllist_orderby_votenum' => '按投票数倒序',
-	'polllist_credit' => '悬赏投票',
-	'polllist_credit_nolimit' => '不限定',
-	'polllist_credit_yes' => '只取悬赏投票',
-	'polllist_expirefilter' => '过期投票',
-	'polllist_expirefilter_off' => '不屏蔽',
-	'polllist_expirefilter_on' => '屏蔽',
+	'polllist_name'		=> 'Poll List',
+	'polllist_desc'		=> 'Call poll list',
+	'polllist_uids'		=> 'User IDs',
+	'polllist_uids_comment'	=> 'Please fill in specific users ID (uid)﹐ use comma (,) to separate users',
+	'polllist_startrow'	=> 'Start Row',
+	'polllist_startrow_comment'	=> 'If you need to set start row﹐ please enter a number﹐ 0 is the first row',
+	'polllist_titlelength'		=> 'Title length',
+	'polllist_summarylength'	=> 'Summary length',
+	'polllist_orderby'		=> 'Order by',
+	'polllist_orderby_comment'	=> 'Set the order of polls',
+	'polllist_orderby_dateline'	=> 'Post time',
+	'polllist_orderby_hot'		=> 'Hot',
+	'polllist_orderby_lastvote'	=> 'Last vote',
+	'polllist_orderby_viewnum'	=> 'Views',
+	'polllist_orderby_replynum'	=> 'Replies',
+	'polllist_orderby_votenum'	=> 'Voters',
+	'polllist_credit'		=> 'Reward Poll',
+	'polllist_credit_nolimit'	=> 'Unlimited',
+	'polllist_credit_yes'		=> 'Only reward poll',
+	'polllist_expirefilter'		=> 'Expired polls',
+	'polllist_expirefilter_off'	=> 'Show',
+	'polllist_expirefilter_on'	=> 'Hide',
 
 );
 

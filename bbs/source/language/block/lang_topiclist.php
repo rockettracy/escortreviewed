@@ -4,31 +4,27 @@
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
- *      $Id: lang_topiclist.php 27449 2012-02-01 05:32:35Z zhangguosheng $
+ *      $Id: lang_topiclist.php 11146 2010-05-25 02:52:53Z xupeng $
  */
-
-if(!defined('IN_DISCUZ')) {
-	exit('Access Denied');
-}
 
 $lang = array
 (
-	'topiclist_topicids' => '指定专题',
-	'topiclist_topicids_comment' => '填入指定专题的ID(topicid)，多个专题之间用逗号(,)分隔',
-	'topiclist_uids' => '创建者UID',
-	'topiclist_uids_comment' => '填入指定专题创建者的ID(uid)，多个用户之间用逗号(,)分隔',
-	'topiclist_startrow' => '起始数据行数',
-	'topiclist_startrow_comment' => '如需设定起始的数据行数，请输入具体数值，0 为从第一行开始，以此类推',
-	'topiclist_titlelength' => '标题长度',
-	'topiclist_titlelength_comment' => '指定专题标题最大长度',
-	'topiclist_summarylength' => '介绍长度',
-	'topiclist_summarylength_comment' => '指定专题介绍最大长度',
-	'topiclist_picrequired' => '过滤无封面专题',
-	'topiclist_picrequired_comment' => '是否过滤没有封面图片的专题',
-	'topiclist_orderby' => '专题排序方式',
-	'topiclist_orderby_comment' => '设置以哪一字段或方式对专题进行排序',
-	'topiclist_orderby_dateline' => '按发布时间倒序',
-	'topiclist_orderby_viewnum' => '按查看数倒序',
+	'topiclist_topicids' => 'Specify topics',
+	'topiclist_topicids_comment' => 'Fill in the specified topic ID (topicid)，Between the number of topics with a comma (,) to separate',
+	'topiclist_uids' => 'Creator UID',
+	'topiclist_uids_comment' => 'Fill in the specified topic creator ID (uid)，Among multiple users with a comma (,) to separate',
+	'topiclist_startrow' => 'Initial number of rows of data',
+	'topiclist_startrow_comment' => 'For information on setting the initial number of rows，Please enter the specific values，0 from the first line，And so on',
+	'topiclist_titlelength' => 'Title Length',
+	'topiclist_titlelength_comment' => 'Specifies the maximum length of title of the topic',
+	'topiclist_summarylength' => 'Description Length',
+	'topiclist_summarylength_comment' => 'Specifies the maximum length of presentations',
+	'topiclist_picrequired' => 'No special filter cover',
+	'topiclist_picrequired_comment' => 'No cover image is the topic of filtering',
+	'topiclist_orderby' => 'Sort by topic',
+	'topiclist_orderby_comment' => 'Settings to which field to sort or manner of topics',
+	'topiclist_orderby_dateline' => 'Posted by reverse',
+	'topiclist_orderby_viewnum' => 'View by reverse',
 );
 
 ?>

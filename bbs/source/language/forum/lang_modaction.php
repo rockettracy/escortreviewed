@@ -4,88 +4,85 @@
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
- *      $Id: lang_modaction.php 27449 2012-02-01 05:32:35Z zhangguosheng $
+ *      $Id: lang_modaction.php 19194 2010-12-21 10:05:33Z shanzongjun $
  */
-
-if(!defined('IN_DISCUZ')) {
-	exit('Access Denied');
-}
 
 $lang = array
 (
 
-	'EDT' => '编辑',
+	'EDT'	=> 'Edit',
 
-	'DEL' => '删除',
-	'DLP' => '删除回复',
-	'DCM' => '删除点评',
-	'PRN' => '批量删帖',
-	'UDL' => '反删除',
+	'DEL'	=> 'Delete',
+	'DLP'	=> 'Delete reply',
+	'DCM'	=> 'Delete comment',
+	'PRN'	=> 'Bulk post remove',
+	'UDL'	=> 'Undelete',
 
-	'DIG' => '加入精华',
-	'UDG' => '解除精华',
-	'EDI' => '限时精华',
-	'UED' => '解除限时精华',
+	'DIG'	=> 'Digg',
+	'UDG'	=> 'Bury',
+	'EDI'	=> 'Limit digg',
+	'UED'	=> 'Unlimit digg',
 
-	'CLS' => '关闭',
-	'OPN' => '打开',
-	'ECL' => '限时关闭',
-	'UEC' => '解除限时关闭',
-	'EOP' => '限时打开',
-	'UEO' => '解除限时打开',
+	'CLS'	=> 'Close',
+	'OPN'	=> 'Open',
+	'ECL'	=> 'Limit Close',
+	'UEC'	=> 'Unlimit close',
+	'EOP'	=> 'Limit open',
+	'UEO'	=> 'Unlimit open',
 
-	'STK' => '置顶',
-	'UST' => '解除置顶',
-	'EST' => '限时置顶',
-	'UES' => '解除限时置顶',
+	'STK'	=> 'Stick',
+	'UST'	=> 'Unstick',
+	'EST'	=> 'Stick Time Limited',
+	'UES'	=> 'UnStick Time Limited',
 
-	'SPL' => '分割',
-	'MRG' => '合并',
+	'SPL'	=> 'Split',
+	'MRG'	=> 'Merge',
 
-	'HLT' => '设置高亮',
-	'UHL' => '解除高亮',
-	'EHL' => '限时高亮',
-	'UEH' => '解除限时高亮',
+	'HLT'	=> 'Highlight',
+	'UHL'	=> 'Unhighlight',
+	'EHL'	=> 'Limit Highlight',
+	'UEH'	=> 'Unlimit Highlight',
 
-	'BMP' => '提升',
-	'DWN' => '下沉',
+	'BMP'	=> 'Bump',
+	'DWN'	=> 'Down',
 
-	'MOV' => '移动',
-	'CPY' => '复制',
-	'TYP' => '分类',
+	'MOV'	=> 'Move',
+	'CPY'	=> 'Copy',
+	'TYP'	=> 'Type',
 
-	'RFD' => '强制退款',
+	'RFD'	=> 'Refund',
 
-	'MOD' => '审核通过',
+	'MOD'	=> 'Moderate',
 
-	'ABL' => '加入文集',
-	'RBL' => '移除文集',
+	'ABL'	=> 'Add BLOG',
+	'RBL'	=> 'Remove BLLOG',
 
-	'PTS' => '推送主题',
-	'RFS' => '解除推送',
-	'RMR' => '取消悬赏',
-	'BNP' => '屏蔽帖子',
-	'UBN' => '解除屏蔽',
+	'PTS'	=> 'Push to stack',
+	'RFS'	=> 'Restore from stack',
+	'RMR'	=> 'Remove reward',
+	'BNP'	=> 'Ban post',
+	'UBN'	=> 'Unban post',
 
-	'REC' => '推荐',
-	'URE' => '解除推荐',
+	'REC'	=> 'Recommend',
+	'URE'	=> 'Unrecommend',
 
-	'WRN' => '警告',
-	'UWN' => '解除警告',
+	'WRN'	=> 'Warn',
+	'UWN'	=> 'Unwarn',
 
-	'SPA' => '添加图章',
-	'SPD' => '撤销图章',
 
-	'SLA' => '添加图标',
-	'SLD' => '撤销图标',
+	'SPA' => 'add Stamp',
+	'SPD' => 'move Stamp',
 
-	'REG' => '群组推荐',
+	'SLA' => 'add icon',
+	'SLD' => 'move icon',
 
-	'PTA' => '生成文章',
+	'REG' => 'Group recommended',
 
-	'MAG' => '道具',
+	'PTA' => 'Generate Articlel',
 
-	'REB' => '推送',
+	'MAG'	=> 'Magic',
+
+	'REB' => 'block recommend ',
 
 );
 

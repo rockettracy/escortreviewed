@@ -4,19 +4,15 @@
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
- *      $Id: lang_attachsize.php 27449 2012-02-01 05:32:35Z zhangguosheng $
+ *      $Id: lang_attachsize.php 7828 2010-04-14 02:11:48Z monkey $
  */
-
-if(!defined('IN_DISCUZ')) {
-	exit('Access Denied');
-}
 
 $lang = array
 (
-	'attachsize_name' => '附件增容卡',
-	'attachsize_desc' => '增加附件容量上限',
-	'attachsize_info' => '额外增加 {num} M 附件容量上限',
-	'attachsize_addsize' => '增加容量',
+	'attachsize_name' => 'Attachment Capacity Card',
+	'attachsize_desc' => 'Increase the Attachment size limit',
+	'attachsize_info' => 'Additional {num} M Attachment size limit',
+	'attachsize_addsize' => 'Increase capacity',
 );
 
 ?>

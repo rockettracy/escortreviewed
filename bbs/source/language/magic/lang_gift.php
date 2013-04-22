@@ -4,27 +4,23 @@
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
- *      $Id: lang_gift.php 27449 2012-02-01 05:32:35Z zhangguosheng $
+ *      $Id: lang_gift.php 7828 2010-04-14 02:11:48Z monkey $
  */
-
-if(!defined('IN_DISCUZ')) {
-	exit('Access Denied');
-}
 
 $lang = array
 (
-	'gift_name' => '红包卡',
-	'gift_desc' => '将自己的一部分积分埋在空间，来访者可以点击获取',
-	'gift_info' => '将积分作为红包（可分成多份）埋在自己空间，<br />每个来访者最多可以获取其中一份',
-	'gift_succeed' => '埋设红包成功 ',
-	'gift_bad_credits_input' => '输入的积分总数有误',
-	'gift_bad_percredit_input' => '输入的每份积分数有误',
-	'gift_bad_credittype_input' => '指定的积分类型有误',
-	'gift_credits_out_of_own' => '输入的积分数超出您拥有的积分数',
-	'gift_gc' => '回收红包',
-	'gift_use' => '埋个红包',
+	'gift_name' => 'Red packets card',
+	'gift_desc' => 'ntegral part of themselves buried in the space， visitors can click to get',
+	'gift_info' => 'The integral as a Red packets （can be divided into more than one）buried in their own space，<br />Visitors can get up to each one of which',
+	'gift_succeed' => 'Successfully planted Red packets ',
+	'gift_bad_credits_input' => 'Enter the total number of incorrect credits',
+	'gift_bad_percredit_input' => 'Each entered the wrong number of credits',
+	'gift_bad_credittype_input' => 'Credits specified the wrong type of',
+	'gift_credits_out_of_own' => 'Enter the number of credits beyond the number of credits you have',
+	'gift_gc' => 'Recycled Red packets',
+	'gift_use' => 'Buried in a red envelope',
 
-	'gift_receive_gift' => '领取红包 {percredit} {credittype}',
+	'gift_receive_gift' => 'Receive Red packets {percredit} {credittype}',
 );
 
 ?>

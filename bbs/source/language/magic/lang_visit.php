@@ -4,19 +4,15 @@
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
- *      $Id: lang_visit.php 27449 2012-02-01 05:32:35Z zhangguosheng $
+ *      $Id: lang_visit.php 7828 2010-04-14 02:11:48Z monkey $
  */
-
-if(!defined('IN_DISCUZ')) {
-	exit('Access Denied');
-}
 
 $lang = array
 (
-	'visit_name' => '互访卡',
-	'visit_desc' => '随机访问好友空间/向好友打招呼/给好友留言',
-	'visit_num' => '访问好友数',
-	'visit_info' => '随机访问(最多 {num} 个)好友空间/向好友打招呼/给好友留言',
+	'visit_name' => 'Card visits',
+	'visit_desc' => 'Random Access friend space / greeting to friends / message to a friend',
+	'visit_num' => 'Number of visits friends',
+	'visit_info' => 'Random access (up to {num})Friend Space / greeting to friends / message to a friend',
 );
 
 ?>

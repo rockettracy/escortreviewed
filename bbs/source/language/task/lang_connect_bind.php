@@ -4,21 +4,17 @@
  *      [Discuz!] (C)2001-2099 Comsenz Inc.
  *      This is NOT a freeware, use is subject to license terms
  *
- *      $Id: lang_connect_bind.php 27449 2012-02-01 05:32:35Z zhangguosheng $
+ *      $Id: lang_connect_bind.php 20567 2011-02-28 02:30:15Z congyushuai $
  */
-
-if(!defined('IN_DISCUZ')) {
-	exit('Access Denied');
-}
 
 $lang = array
 (
-	'connect_bind_name' => 'QQ 帐号绑定任务',
-	'connect_bind_desc' => '绑定 QQ 帐号即可获得相应的奖励',
-	'connect_bind_view' => '<strong>请按照以下的说明来参与本任务：</strong>
+	'connect_bind_name' => 'QQ account bound tasks',
+	'connect_bind_desc' => 'QQ bound to get the corresponding reward account',
+	'connect_bind_view' => '<strong>Follow the instructions to participate in the task：</strong>
 		<ul>
-		<li>1. <a href="connect.php?mod=config" target="_blank">新窗口打开 QQ 帐号绑定的页面</a></li>
-		<li>2. 在新打开的页面中，点击“QQ帐号绑定”按钮，填写您的 QQ 账号和密码即可完成绑定</li>
+		<li>1. <a href="connect.php?mod=config" target="_blank">QQ account the new window opens the page binding</a></li>
+		<li>2. Open the page in a new，Click the ＂QQ account bound＂button，Fill in your QQ account number and password to complete binding</li>
 		</ul>',
 );
 
