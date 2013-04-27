@@ -1,86 +1,0 @@
-10
-
-dir
-401
-http://discuzx-en.googlecode.com/svn/trunk/discuzx2.0ML/upload/source
-http://discuzx-en.googlecode.com/svn
-
-
-
-2012-11-16T09:11:44.884088Z
-401
-vvotintsev@gmail.com
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-ed102d2c-d53f-e219-56b2-8766b63ae0a5
-
-language
-dir
-
-archiver
-dir
-
-include
-dir
-
-module
-dir
-
-function
-dir
-
-class
-dir
-
-admincp
-dir
-
-discuz_version.php
-file
-
-
-
-
-2013-04-27T02:43:34.000000Z
-8ba51cb903009bdf8a4f19bd9605d7cc
-2012-11-16T09:11:44.884088Z
-401
-vvotintsev@gmail.com
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-420
-
-plugin
-dir
-
