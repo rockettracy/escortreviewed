@@ -12,14 +12,16 @@ sudo /etc/init.d/httpd stop
 
 echo "backup running code: REV: $CURRENT_REVISION ..."
 sudo rm -rf "$TARGET_PATH/bbs_old"
-sudo cp -r "$TARGET_PATH/bbs" "$TARGET_PATH/bbs_old"
+sudo cp -r "$TARGET_PATH/bbs15eng" "$TARGET_PATH/bbs_old"
 
 echo "pull latest code..."
 sudo git pull
 DEPLOY_REV=`git log | grep ^commit | head -1 | cut -d ' ' -f 2`
 
 echo "deploy new branch: $BRANCH, REV: $DEPLOY_REV ..."
-sudo cp -r "$SOURCE_PATH/bbs" "$TARGET_PATH/" 
+cd "$SOURCE_PATH/bbs15eng"
+sudo cp -r "*" "$TARGET_PATH/" 
+cd "$SOURCE_PATH"
 
 echo "start Apache..."
 sudo /etc/init.d/httpd start
