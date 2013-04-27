@@ -94,3 +94,60 @@ mysql> select * from pre_common_setting where skey="extcredits";
 | extcredits | a:8:{i:1;a:8:{s:3:"img";s:0:"";s:5:"title";s:6:"威望";s:4:"unit";s:0:"";s:5:"ratio";i:0;s:9:"available";s:1:"1";s:12:"showinthread";N;s:15:"allowexchangein";N;s:16:"allowexchangeout";N;}i:2;a:8:{s:3:"img";s:0:"";s:5:"title";s:6:"金钱";s:4:"unit";s:0:"";s:5:"ratio";i:0;s:9:"available";s:1:"1";s:12:"showinthread";N;s:15:"allowexchangein";N;s:16:"allowexchangeout";N;}i:3;a:8:{s:3:"img";s:0:"";s:5:"title";s:6:"贡献";s:4:"unit";s:0:"";s:5:"ratio";i:0;s:9:"available";s:1:"1";s:12:"showinthread";N;s:15:"allowexchangein";N;s:16:"allowexchangeout";N;}i:4;a:8:{s:3:"img";s:0:"";s:5:"title";s:0:"";s:4:"unit";s:0:"";s:5:"ratio";i:0;s:9:"available";N;s:12:"showinthread";N;s:15:"allowexchangein";N;s:16:"allowexchangeout";N;}i:5;a:8:{s:3:"img";s:0:"";s:5:"title";s:0:"";s:4:"unit";s:0:"";s:5:"ratio";i:0;s:9:"available";N;s:12:"showinthread";N;s:15:"allowexchangein";N;s:16:"allowexchangeout";N;}i:6;a:8:{s:3:"img";s:0:"";s:5:"title";s:0:"";s:4:"unit";s:0:"";s:5:"ratio";i:0;s:9:"available";N;s:12:"showinthread";N;s:15:"allowexchangein";N;s:16:"allowexchangeout";N;}i:7;a:8:{s:3:"img";s:0:"";s:5:"title";s:0:"";s:4:"unit";s:0:"";s:5:"ratio";i:0;s:9:"available";N;s:12:"showinthread";N;s:15:"allowexchangein";N;s:16:"allowexchangeout";N;}i:8;a:8:{s:3:"img";s:0:"";s:5:"title";s:0:"";s:4:"unit";s:0:"";s:5:"ratio";i:0;s:9:"available";N;s:12:"showinthread";N;s:15:"allowexchangein";N;s:16:"allowexchangeout";N;}} |
 
 update pre_common_setting set svalue='a:8:{i:1;a:8:{s:3:"img";s:0:"";s:5:"title";s:6:"威望";s:4:"unit";s:0:"";s:5:"ratio";i:0;s:9:"available";s:1:"1";s:12:"showinthread";N;s:15:"allowexchangein";N;s:16:"allowexchangeout";N;}i:2;a:8:{s:3:"img";s:0:"";s:5:"title";s:6:"金钱";s:4:"unit";s:0:"";s:5:"ratio";i:0;s:9:"available";s:1:"1";s:12:"showinthread";N;s:15:"allowexchangein";N;s:16:"allowexchangeout";N;}i:3;a:8:{s:3:"img";s:0:"";s:5:"title";s:6:"贡献";s:4:"unit";s:0:"";s:5:"ratio";i:0;s:9:"available";s:1:"1";s:12:"showinthread";N;s:15:"allowexchangein";N;s:16:"allowexchangeout";N;}i:4;a:8:{s:3:"img";s:0:"";s:5:"title";s:0:"";s:4:"unit";s:0:"";s:5:"ratio";i:0;s:9:"available";N;s:12:"showinthread";N;s:15:"allowexchangein";N;s:16:"allowexchangeout";N;}i:5;a:8:{s:3:"img";s:0:"";s:5:"title";s:0:"";s:4:"unit";s:0:"";s:5:"ratio";i:0;s:9:"available";N;s:12:"showinthread";N;s:15:"allowexchangein";N;s:16:"allowexchangeout";N;}i:6;a:8:{s:3:"img";s:0:"";s:5:"title";s:0:"";s:4:"unit";s:0:"";s:5:"ratio";i:0;s:9:"available";N;s:12:"showinthread";N;s:15:"allowexchangein";N;s:16:"allowexchangeout";N;}i:7;a:8:{s:3:"img";s:0:"";s:5:"title";s:0:"";s:4:"unit";s:0:"";s:5:"ratio";i:0;s:9:"available";N;s:12:"showinthread";N;s:15:"allowexchangein";N;s:16:"allowexchangeout";N;}i:8;a:8:{s:3:"img";s:0:"";s:5:"title";s:0:"";s:4:"unit";s:0:"";s:5:"ratio";i:0;s:9:"available";N;s:12:"showinthread";N;s:15:"allowexchangein";N;s:16:"allowexchangeout";N;}}' where skey="extcredits";
+
+mysql> select fieldid, title from pre_common_member_profile_setting;
++-----------------+------------------+
+| fieldid         | title            |
++-----------------+------------------+
+| realname        | 真实姓名         |
+| gender          | 性别             |
+| birthyear       | 出生年份         |
+| birthmonth      | 出生月份         |
+| birthday        | 生日             |
+| constellation   | 星座             |
+| zodiac          | 生肖             |
+| telephone       | 固定电话         |
+| mobile          | 手机             |
+| idcardtype      | 证件类型         |
+| idcard          | 证件号           |
+| address         | 邮寄地址         |
+| zipcode         | 邮编             |
+| nationality     | 国籍             |
+| birthprovince   | 出生省份         |
+| birthcity       | 出生地           |
+| birthdist       | 出生县           |
+| birthcommunity  | 出生小区         |
+| resideprovince  | 居住省份         |
+| residecity      | 居住地           |
+| residedist      | 居住县           |
+| residecommunity | 居住小区         |
+| residesuite     | 房间             |
+| graduateschool  | 毕业学校         |
+| education       | 学历             |
+| company         | 公司             |
+| occupation      | 职业             |
+| position        | 职位             |
+| revenue         | 年收入           |
+| affectivestatus | 情感状态         |
+| lookingfor      | 交友目的         |
+| bloodtype       | 血型             |
+| height          | 身高             |
+| weight          | 体重             |
+| alipay          | 支付宝           |
+| icq             | ICQ              |
+| qq              | QQ               |
+| yahoo           | YAHOO帐号        |
+| msn             | MSN              |
+| taobao          | 阿里旺旺         |
+| site            | 个人主页         |
+| bio             | 自我介绍         |
+| interest        | 兴趣爱好         |
+| field1          | 自定义字段1      |
+| field2          | 自定义字段2      |
+| field3          | 自定义字段3      |
+| field4          | 自定义字段4      |
+| field5          | 自定义字段5      |
+| field6          | 自定义字段6      |
+| field7          | 自定义字段7      |
+| field8          | 自定义字段8      |
++-----------------+------------------+

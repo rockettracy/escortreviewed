@@ -335,7 +335,7 @@ $serialize_sql_setting = array (
     array (
       'available' => 1,
       'displayorder' => 0,
-      'title' => '基本资料',
+      'title' => 'Basic Info',
       'field' =>
       array (
         'realname' => 'realname',
