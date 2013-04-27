@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/383/trunk/discuzx2.0ML/upload/source/include/cron
+END
+cron_todaypost_daily.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/96/trunk/discuzx2.0ML/upload/source/include/cron/cron_todaypost_daily.php
+END
+cron_cleanup_daily.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/96/trunk/discuzx2.0ML/upload/source/include/cron/cron_cleanup_daily.php
+END
+cron_threadexpiry_hourly.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/96/trunk/discuzx2.0ML/upload/source/include/cron/cron_threadexpiry_hourly.php
+END
+cron_viewlog.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/96/trunk/discuzx2.0ML/upload/source/include/cron/cron_viewlog.php
+END
+cron_announcement_daily.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/96/trunk/discuzx2.0ML/upload/source/include/cron/cron_announcement_daily.php
+END
+cron_onlinetime_monthly.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/96/trunk/discuzx2.0ML/upload/source/include/cron/cron_onlinetime_monthly.php
+END
+cron_secqaa_daily.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/96/trunk/discuzx2.0ML/upload/source/include/cron/cron_secqaa_daily.php
+END
+index.htm
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/96/trunk/discuzx2.0ML/upload/source/include/cron/index.htm
+END
+cron_promotion_hourly.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/96/trunk/discuzx2.0ML/upload/source/include/cron/cron_promotion_hourly.php
+END
+cron_cleannotification.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/96/trunk/discuzx2.0ML/upload/source/include/cron/cron_cleannotification.php
+END
+cron_tag_daily.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/96/trunk/discuzx2.0ML/upload/source/include/cron/cron_tag_daily.php
+END
+cron_category_daily.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/383/trunk/discuzx2.0ML/upload/source/include/cron/cron_category_daily.php
+END
+cron_cleanup_monthly.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/383/trunk/discuzx2.0ML/upload/source/include/cron/cron_cleanup_monthly.php
+END
+cron_cleantrace.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/96/trunk/discuzx2.0ML/upload/source/include/cron/cron_cleantrace.php
+END
+cron_magic_daily.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/96/trunk/discuzx2.0ML/upload/source/include/cron/cron_magic_daily.php
+END
+cron_medal_daily.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/96/trunk/discuzx2.0ML/upload/source/include/cron/cron_medal_daily.php
+END
+cron_cleanfeed.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/383/trunk/discuzx2.0ML/upload/source/include/cron/cron_cleanfeed.php
+END

@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/387/trunk/discuzx2.0ML/upload/uc_server/lib
+END
+seccode.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/383/trunk/discuzx2.0ML/upload/uc_server/lib/seccode.class.php
+END
+db.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/96/trunk/discuzx2.0ML/upload/uc_server/lib/db.class.php
+END
+template.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/387/trunk/discuzx2.0ML/upload/uc_server/lib/template.class.php
+END
+xml.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/96/trunk/discuzx2.0ML/upload/uc_server/lib/xml.class.php
+END
+sendmail.inc.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/96/trunk/discuzx2.0ML/upload/uc_server/lib/sendmail.inc.php
+END
+uccode.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/383/trunk/discuzx2.0ML/upload/uc_server/lib/uccode.class.php
+END
+index.htm
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/96/trunk/discuzx2.0ML/upload/uc_server/lib/index.htm
+END
+upload.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/96/trunk/discuzx2.0ML/upload/uc_server/lib/upload.class.php
+END

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/393/trunk/discuzx2.0ML/upload/api/trade
+END
+api_tenpay.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/383/trunk/discuzx2.0ML/upload/api/trade/api_tenpay.php
+END
+notify_credit.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/96/trunk/discuzx2.0ML/upload/api/trade/notify_credit.php
+END
+notify_invite.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/96/trunk/discuzx2.0ML/upload/api/trade/notify_invite.php
+END
+notify_trade.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/96/trunk/discuzx2.0ML/upload/api/trade/notify_trade.php
+END
+api_alipay.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/393/trunk/discuzx2.0ML/upload/api/trade/api_alipay.php
+END

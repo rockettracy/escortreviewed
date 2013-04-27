@@ -1,0 +1,575 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/401/trunk/discuzx2.0ML/upload/template/default/forum
+END
+trade_view.htm
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/96/trunk/discuzx2.0ML/upload/template/default/forum/trade_view.htm
+END
+editor_ajax.htm
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/256/trunk/discuzx2.0ML/upload/template/default/forum/editor_ajax.htm
+END
+stat_trade.htm
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/96/trunk/discuzx2.0ML/upload/template/default/forum/stat_trade.htm
+END
+announcement.htm
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/96/trunk/discuzx2.0ML/upload/template/default/forum/announcement.htm
+END
+activity_export.htm
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/96/trunk/discuzx2.0ML/upload/template/default/forum/activity_export.htm
+END
+post_editor_extra.htm
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/96/trunk/discuzx2.0ML/upload/template/default/forum/post_editor_extra.htm
+END
+ajax_attachlist.htm
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/383/trunk/discuzx2.0ML/upload/template/default/forum/ajax_attachlist.htm
+END
+viewthread_reward.htm
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/96/trunk/discuzx2.0ML/upload/template/default/forum/viewthread_reward.htm
+END
+viewthread_debate.htm
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/380/trunk/discuzx2.0ML/upload/template/default/forum/viewthread_debate.htm
+END
+modcp_recyclebinpost.htm
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/266/trunk/discuzx2.0ML/upload/template/default/forum/modcp_recyclebinpost.htm
+END
+viewthread_poll_voter.htm
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/96/trunk/discuzx2.0ML/upload/template/default/forum/viewthread_poll_voter.htm
+END
+modcp_home.htm
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/380/trunk/discuzx2.0ML/upload/template/default/forum/modcp_home.htm
+END
+tag.htm
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/266/trunk/discuzx2.0ML/upload/template/default/forum/tag.htm
+END
+trade_displayorder.htm
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/380/trunk/discuzx2.0ML/upload/template/default/forum/trade_displayorder.htm
+END
+stat_team.htm
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/96/trunk/discuzx2.0ML/upload/template/default/forum/stat_team.htm
+END
+pay_view.htm
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/96/trunk/discuzx2.0ML/upload/template/default/forum/pay_view.htm
+END
+viewthread_portal.htm
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/96/trunk/discuzx2.0ML/upload/template/default/forum/viewthread_portal.htm
+END
+post_editor_option.htm
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/96/trunk/discuzx2.0ML/upload/template/default/forum/post_editor_option.htm
+END
+rate_view.htm
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/96/trunk/discuzx2.0ML/upload/template/default/forum/rate_view.htm
+END
+viewthread_fastpost.htm
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/182/trunk/discuzx2.0ML/upload/template/default/forum/viewthread_fastpost.htm
+END
+post.htm
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/96/trunk/discuzx2.0ML/upload/template/default/forum/post.htm
+END
+viewthread_poll.htm
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/392/trunk/discuzx2.0ML/upload/template/default/forum/viewthread_poll.htm
+END
+pay.htm
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/96/trunk/discuzx2.0ML/upload/template/default/forum/pay.htm
+END
+modcp_thread.htm
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/96/trunk/discuzx2.0ML/upload/template/default/forum/modcp_thread.htm
+END
+modcp_member.htm
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/392/trunk/discuzx2.0ML/upload/template/default/forum/modcp_member.htm
+END
+ajax_secondgroup.htm
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/96/trunk/discuzx2.0ML/upload/template/default/forum/ajax_secondgroup.htm
+END
+forumdisplay_leftside.htm
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/96/trunk/discuzx2.0ML/upload/template/default/forum/forumdisplay_leftside.htm
+END
+ajax_albumlist.htm
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/96/trunk/discuzx2.0ML/upload/template/default/forum/ajax_albumlist.htm
+END
+modcp_recyclebin.htm
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/96/trunk/discuzx2.0ML/upload/template/default/forum/modcp_recyclebin.htm
+END
+comment.htm
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/96/trunk/discuzx2.0ML/upload/template/default/forum/comment.htm
+END
+search_sortoption.htm
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/96/trunk/discuzx2.0ML/upload/template/default/forum/search_sortoption.htm
+END
+index.htm
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/96/trunk/discuzx2.0ML/upload/template/default/forum/index.htm
+END
+activity_applist_more.htm
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/96/trunk/discuzx2.0ML/upload/template/default/forum/activity_applist_more.htm
+END
+modcp_forum.htm
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/96/trunk/discuzx2.0ML/upload/template/default/forum/modcp_forum.htm
+END
+post_poll.htm
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/96/trunk/discuzx2.0ML/upload/template/default/forum/post_poll.htm
+END
+postappend.htm
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/96/trunk/discuzx2.0ML/upload/template/default/forum/postappend.htm
+END
+attachpay.htm
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/380/trunk/discuzx2.0ML/upload/template/default/forum/attachpay.htm
+END
+relatekw.htm
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/96/trunk/discuzx2.0ML/upload/template/default/forum/relatekw.htm
+END
+viewthread_activity.htm
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/96/trunk/discuzx2.0ML/upload/template/default/forum/viewthread_activity.htm
+END
+post_editor_attribute.htm
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/96/trunk/discuzx2.0ML/upload/template/default/forum/post_editor_attribute.htm
+END
+forumdisplay.htm
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/380/trunk/discuzx2.0ML/upload/template/default/forum/forumdisplay.htm
+END
+topicadmin_getip.htm
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/96/trunk/discuzx2.0ML/upload/template/default/forum/topicadmin_getip.htm
+END
+topicadmin_action.htm
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/96/trunk/discuzx2.0ML/upload/template/default/forum/topicadmin_action.htm
+END
+upload.htm
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/383/trunk/discuzx2.0ML/upload/template/default/forum/upload.htm
+END
+stat_misc.htm
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/96/trunk/discuzx2.0ML/upload/template/default/forum/stat_misc.htm
+END
+viewthread_from_node.htm
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/96/trunk/discuzx2.0ML/upload/template/default/forum/viewthread_from_node.htm
+END
+discuzcode.htm
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/383/trunk/discuzx2.0ML/upload/template/default/forum/discuzcode.htm
+END
+modcp_forumaccess.htm
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/96/trunk/discuzx2.0ML/upload/template/default/forum/modcp_forumaccess.htm
+END
+activity_applylist.htm
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/380/trunk/discuzx2.0ML/upload/template/default/forum/activity_applylist.htm
+END
+post_forumselect.htm
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/96/trunk/discuzx2.0ML/upload/template/default/forum/post_forumselect.htm
+END
+stat_onlinetime.htm
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/96/trunk/discuzx2.0ML/upload/template/default/forum/stat_onlinetime.htm
+END
+stat_memberlist.htm
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/96/trunk/discuzx2.0ML/upload/template/default/forum/stat_memberlist.htm
+END
+forumdisplay_passwd.htm
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/96/trunk/discuzx2.0ML/upload/template/default/forum/forumdisplay_passwd.htm
+END
+trade.htm
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/96/trunk/discuzx2.0ML/upload/template/default/forum/trade.htm
+END
+forumdisplay_subforum.htm
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/96/trunk/discuzx2.0ML/upload/template/default/forum/forumdisplay_subforum.htm
+END
+viewthread_mod.htm
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/96/trunk/discuzx2.0ML/upload/template/default/forum/viewthread_mod.htm
+END
+post_activity.htm
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/96/trunk/discuzx2.0ML/upload/template/default/forum/post_activity.htm
+END
+warn_view.htm
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/96/trunk/discuzx2.0ML/upload/template/default/forum/warn_view.htm
+END
+discuz.htm
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/266/trunk/discuzx2.0ML/upload/template/default/forum/discuz.htm
+END
+modcp.htm
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/96/trunk/discuzx2.0ML/upload/template/default/forum/modcp.htm
+END
+viewthread_printable.htm
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/!svn/ver/246/trunk/discuzx2.0ML/upload/template/default/forum/viewthread_printable.htm
+END
+debate_umpire.htm
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/380/trunk/discuzx2.0ML/upload/template/default/forum/debate_umpire.htm
+END
+viewthread_node.htm
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/401/trunk/discuzx2.0ML/upload/template/default/forum/viewthread_node.htm
+END
+post_attachlimit.htm
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/96/trunk/discuzx2.0ML/upload/template/default/forum/post_attachlimit.htm
+END
+attachpay_view.htm
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/96/trunk/discuzx2.0ML/upload/template/default/forum/attachpay_view.htm
+END
+recommend.htm
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/96/trunk/discuzx2.0ML/upload/template/default/forum/recommend.htm
+END
+forumdisplay_list.htm
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/393/trunk/discuzx2.0ML/upload/template/default/forum/forumdisplay_list.htm
+END
+viewthread_pay.htm
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/96/trunk/discuzx2.0ML/upload/template/default/forum/viewthread_pay.htm
+END
+modcp_announcement.htm
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/96/trunk/discuzx2.0ML/upload/template/default/forum/modcp_announcement.htm
+END
+editor_menu_forum.htm
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/383/trunk/discuzx2.0ML/upload/template/default/forum/editor_menu_forum.htm
+END
+viewthread_node_body.htm
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/96/trunk/discuzx2.0ML/upload/template/default/forum/viewthread_node_body.htm
+END
+topicadmin.htm
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/96/trunk/discuzx2.0ML/upload/template/default/forum/topicadmin.htm
+END
+post_reward.htm
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/96/trunk/discuzx2.0ML/upload/template/default/forum/post_reward.htm
+END
+post_debate.htm
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/96/trunk/discuzx2.0ML/upload/template/default/forum/post_debate.htm
+END
+modcp_login.htm
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/96/trunk/discuzx2.0ML/upload/template/default/forum/modcp_login.htm
+END
+rate.htm
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/96/trunk/discuzx2.0ML/upload/template/default/forum/rate.htm
+END
+modcp_report.htm
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/96/trunk/discuzx2.0ML/upload/template/default/forum/modcp_report.htm
+END
+index_navbar.htm
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/96/trunk/discuzx2.0ML/upload/template/default/forum/index_navbar.htm
+END
+forumdisplay_fastpost.htm
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/182/trunk/discuzx2.0ML/upload/template/default/forum/forumdisplay_fastpost.htm
+END
+post_infloat.htm
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/96/trunk/discuzx2.0ML/upload/template/default/forum/post_infloat.htm
+END
+viewthread.htm
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/393/trunk/discuzx2.0ML/upload/template/default/forum/viewthread.htm
+END
+modcp_log.htm
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/96/trunk/discuzx2.0ML/upload/template/default/forum/modcp_log.htm
+END
+post_trade.htm
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/96/trunk/discuzx2.0ML/upload/template/default/forum/post_trade.htm
+END
+ajax_threadlist.htm
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/96/trunk/discuzx2.0ML/upload/template/default/forum/ajax_threadlist.htm
+END
+modcp_post.htm
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/96/trunk/discuzx2.0ML/upload/template/default/forum/modcp_post.htm
+END
+modcp_moderate_float.htm
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/96/trunk/discuzx2.0ML/upload/template/default/forum/modcp_moderate_float.htm
+END
+post_editor_body.htm
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/380/trunk/discuzx2.0ML/upload/template/default/forum/post_editor_body.htm
+END
+trade_info.htm
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/380/trunk/discuzx2.0ML/upload/template/default/forum/trade_info.htm
+END
+stat_main.htm
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/96/trunk/discuzx2.0ML/upload/template/default/forum/stat_main.htm
+END
+ajax_imagelist.htm
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/96/trunk/discuzx2.0ML/upload/template/default/forum/ajax_imagelist.htm
+END
+viewthread_trade.htm
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/96/trunk/discuzx2.0ML/upload/template/default/forum/viewthread_trade.htm
+END
+modcp_moderate.htm
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/380/trunk/discuzx2.0ML/upload/template/default/forum/modcp_moderate.htm
+END
+topicadmin_modlayer.htm
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/96/trunk/discuzx2.0ML/upload/template/default/forum/topicadmin_modlayer.htm
+END
+comment_more.htm
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/266/trunk/discuzx2.0ML/upload/template/default/forum/comment_more.htm
+END
+post_sortoption.htm
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/383/trunk/discuzx2.0ML/upload/template/default/forum/post_sortoption.htm
+END
