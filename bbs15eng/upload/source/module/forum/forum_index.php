@@ -153,6 +153,7 @@ if(!$gid && (!defined('FORUM_INDEX_PAGE_MEMORY') || !FORUM_INDEX_PAGE_MEMORY)) {
 		$_G['setting']['whosonlinestatus'] = 1;
 
 		$onlineinfo = explode("\t", $_G['cache']['onlinerecord']);
+    $onlineinfo[0] += 333; 
 		if(empty($_G['cookie']['onlineusernum'])) {
 			$onlinenum = DB::result_first("SELECT count(*) FROM ".DB::table('common_session'));
 			if($onlinenum > $onlineinfo[0]) {
