@@ -12,7 +12,7 @@ if(!defined('IN_DISCUZ')) {
 }
 
 function build_cache_userstats() {
-	$totalmembers = DB::result_first("SELECT COUNT(*) FROM ".DB::table('common_member'));
+	$totalmembers = DB::result_first("SELECT COUNT(*) FROM ".DB::table('common_member')) + 2200;
 	$newsetuser = DB::result_first("SELECT username FROM ".DB::table('common_member')." ORDER BY regdate DESC LIMIT 1");
 	save_syscache('userstats', array('totalmembers' => $totalmembers, 'newsetuser' => $newsetuser));
 }
