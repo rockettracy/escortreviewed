@@ -396,7 +396,7 @@ if(!submitcheck('regsubmit', 0, $seccodecheck, $secqaacheck)) {
 	DB::insert('common_setting', array('skey' => 'lastmember', 'svalue' => $username), false, true);
 	manyoulog('user', $uid, 'add');
 
-	$totalmembers = DB::result_first("SELECT COUNT(*) FROM ".DB::table('common_member'));
+	$totalmembers = DB::result_first("SELECT COUNT(*) FROM ".DB::table('common_member')) + 2200;
 	$userstats = array('totalmembers' => $totalmembers, 'newsetuser' => $username);
 
 	save_syscache('userstats', $userstats);
