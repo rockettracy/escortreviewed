@@ -1,11 +1,11 @@
 #!/bin/bash
 
 function usage {
-  echo "./deploy.sh [-h] -e <dev|prod>"
+  echo "./deploy.sh [-h] -e <dev|prod> -p <escort|baobaowiki>"
   exit 0
 }
 
-while getopts "he:m:" OPTIONS
+while getopts "he:m:p:" OPTIONS
   do
     case $OPTIONS
     in 
@@ -15,6 +15,9 @@ while getopts "he:m:" OPTIONS
     e)
     DEPLOY_ENV=$OPTARG
     ;;
+    p)
+    DEPLOY_PRODUCT=$OPTARG
+    ;;
     *)
     usage
     ;;
@@ -22,6 +25,9 @@ while getopts "he:m:" OPTIONS
   done
 
 if [  -z "$DEPLOY_ENV" ]; then
+  usage
+fi
+if [  -z "$DEPLOY_PRODUCT" ]; then
   usage
 fi
 
@@ -36,8 +42,13 @@ if [ "$DEPLOY_ENV" == "prod" ];then
   TARGET_PATH="/var/www/html"
   BACKUP_FOLDER="/var/www/html_bak"
 else
-  TARGET_PATH="/Users/kelinliu/Sites/escortreviewed"
-  BACKUP_FOLDER="/Users/kelinliu/Sites/escortreviewed_bak"
+    if [ "$DEPLOY_PRODUCT" == "escort" ];then
+      TARGET_PATH="/Users/kelinliu/Sites/escortreviewed"
+      BACKUP_FOLDER="/Users/kelinliu/Sites/escortreviewed_bak"
+    else
+      TARGET_PATH="/Users/kelinliu/Sites/baobaowiki"
+      BACKUP_FOLDER="/Users/kelinliu/Sites/baobaowiki_bak"
+    fi
 fi
 
 echo "stop Apache..."
@@ -54,7 +65,11 @@ sudo git pull
 DEPLOY_REV=`git log | grep ^commit | head -1 | cut -d ' ' -f 2`
 
 echo "deploy new branch: $BRANCH, ENV: $DEPLOY_ENV, REV: $DEPLOY_REV ..."
-cd "$SOURCE_PATH/bbs15eng/upload"
+if [ "$DEPLOY_PRODUCT" == "escort" ];then
+  cd "$SOURCE_PATH/bbs15eng/upload"
+else
+  cd "$SOURCE_PATH/baobaowiki/upload"
+fi
 sudo cp -r * "$TARGET_PATH/" 
 cd "$SOURCE_PATH"
 
