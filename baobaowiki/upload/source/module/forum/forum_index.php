@@ -179,6 +179,7 @@ if(!$gid && (!defined('FORUM_INDEX_PAGE_MEMORY') || !FORUM_INDEX_PAGE_MEMORY)) {
 		$_G['setting']['whosonlinestatus'] = 1;
 
 		$onlineinfo = explode("\t", $_G['cache']['onlinerecord']);
+    $onlineinfo[0] += 333;
 		if(empty($_G['cookie']['onlineusernum'])) {
 			$onlinenum = C::app()->session->count();
 			if($onlinenum > $onlineinfo[0]) {
