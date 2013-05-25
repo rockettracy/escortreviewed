@@ -181,7 +181,7 @@ if(!$gid && (!defined('FORUM_INDEX_PAGE_MEMORY') || !FORUM_INDEX_PAGE_MEMORY)) {
 		$onlineinfo = explode("\t", $_G['cache']['onlinerecord']);
     $onlineinfo[0] += 333;
 		if(empty($_G['cookie']['onlineusernum'])) {
-			$onlinenum = C::app()->session->count() + rand(22,222);
+			$onlinenum = C::app()->session->count() + rand(33,66);
 			if($onlinenum > $onlineinfo[0]) {
 				$onlinerecord = "$onlinenum\t".TIMESTAMP;
 				C::t('common_setting')->update('onlinerecord', $onlinerecord);
@@ -190,7 +190,7 @@ if(!$gid && (!defined('FORUM_INDEX_PAGE_MEMORY') || !FORUM_INDEX_PAGE_MEMORY)) {
 			}
 			dsetcookie('onlineusernum', intval($onlinenum), 300);
 		} else {
-			$onlinenum = intval($_G['cookie']['onlineusernum']) + rand(22,222);
+			$onlinenum = intval($_G['cookie']['onlineusernum']);
 		}
 		$onlineinfo[1] = dgmdate($onlineinfo[1], 'd');
 
