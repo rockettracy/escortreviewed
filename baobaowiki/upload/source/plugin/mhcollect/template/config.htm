@@ -1,0 +1,105 @@
+<script src="source/plugin/mhcollect/js/mhcollect.js" type="text/javascript"></script>
+<table class="tb tb2 ">
+	<tr>
+		<th colspan="15" class="partition">{lang mhcollect:mhcollect_config_member}</th>
+	</tr>
+<!--{if $add_member}-->
+	<tr>
+		<th>
+<!--{if $add_member == -1}-->
+			{lang mhcollect:mhcollect_member_nonexist}
+<!--{/if}-->
+<!--{if $add_member == -2}-->
+			{lang mhcollect:mhcollect_member_enlisted}
+<!--{/if}-->
+<!--{if $add_member['uname']}-->
+			{lang mhcollect:mhcollect_member_beenenlist}
+			$add_member['uname']
+<!--{/if}-->
+		</th>
+	</tr>
+<!--{/if}-->
+		<th>
+			{lang mhcollect:mhcollect_config_addmember}
+		</th>
+	</tr>
+	<tr>
+		<td  class="vtop rowform">
+			<input type="text" id="addmember" />
+		</td>
+		<td colspan="14"><input type="submit" class="btn" value="{lang mhcollect:mhcollect_add}" onclick="member_ad({$_G['gp_do']})" /></td>
+	</tr>
+	<tr>
+		<th>{lang mhcollect:mhcollect_config_membertodel}</th>
+	</tr>
+<!--{if $del_member}-->
+	<tr>
+		<td>
+			{lang mhcollect:mhcollect_member_deleted}
+			$del_member['uname']
+		</td>
+	</tr>
+<!--{/if}-->
+	<tr>
+		<td class="vtop rowform">
+			<select name="memberid" size="10">
+<!--{loop $member_list $key $value}-->
+				<option  value="$value['uid']">
+					$value['uname']
+				</option>
+<!--{/loop}-->
+			</select>
+		</td>
+		<td colspan="15"><input type="submit" class="btn" value="{lang mhcollect:mhcollect_delete}" onclick="member_del({$_G['gp_do']})"/></td>
+	</tr>
+<!--There comes the xml config-->
+	<tr>
+		<th colspan="15" class="partition">{lang mhcollect:mhcollect_config_xml}</th>
+	</tr>
+	<tr>
+		<th>
+			{lang mhcollect:mhcollect_config_addxml}
+		</th>
+	</tr>
+<!--{if $add_xml}-->
+	<tr>
+		<th>
+			{lang mhcollect:mhcollect_xml_enlisted}
+<!--{/if}-->
+<!--{if $add_xml['link']}-->
+			{lang mhcollect:mhcollect_xml_beenenlist}
+			$add_xml['link'];
+<!--{/if}-->
+		</th>
+	</tr>
+	<tr>
+		<td  class="vtop rowform">
+			<input type="text" id="addxml" />
+		</td>
+		<td colspan="14"><input type="submit" class="btn" value="{lang mhcollect:mhcollect_add}" onclick="xml_add({$_G['gp_do']})"/></td>
+	</tr>
+	<tr>
+		<th>{lang mhcollect:mhcollect_config_xmltodel}</th>
+	</tr>
+<!--{if $del_xml}-->
+	<tr>
+		<th>
+			{lang mhcollect:mhcollect_xml_deleted}
+			$del_xml['link']
+		</th>
+	</tr>
+<!--{/if}-->
+	<tr class="noborder">
+		<td class="vtop rowform">
+			<select id="xmlid" size="20" style="width:400px">
+<!--{loop $xml_list $key $value}-->
+				<option value="$value['id']">
+					$value['link']
+				</option>
+<!--{/loop}-->
+			</select>
+		</td>
+		<td colspan="15"><input type="submit" class="btn" value="{lang mhcollect:mhcollect_delete}" onclick="xml_del({$_G['gp_do']})"/></td>
+	</tr>
+
+</table>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Plugin]]></item>
+	<item id="Version"><![CDATA[X2.5]]></item>
+	<item id="Time"><![CDATA[2013-01-04 11:04]]></item>
+	<item id="From"><![CDATA[Discuz! Board (http://localhost/25/)]]></item>
+	<item id="Data">
+		<item id="plugin">
+			<item id="available"><![CDATA[1]]></item>
+			<item id="adminid"><![CDATA[0]]></item>
+			<item id="name"><![CDATA[Ã×»¨ÐÂÎÅ²É¼¯]]></item>
+			<item id="identifier"><![CDATA[mhcollect]]></item>
+			<item id="description"><![CDATA[ÃÅ»§ÍøÕ¾ÐÂÎÅÐÅÏ¢²É¼¯]]></item>
+			<item id="datatables"><![CDATA[]]></item>
+			<item id="directory"><![CDATA[mhcollect/]]></item>
+			<item id="copyright"><![CDATA[bbs.mihua.net]]></item>
+			<item id="version"><![CDATA[1.1.0]]></item>
+			<item id="__modules">
+				<item id="0">
+					<item id="name"><![CDATA[collect]]></item>
+					<item id="menu"><![CDATA[ÐÂÎÅ²É¼¯]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[3]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[0]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+				<item id="1">
+					<item id="name"><![CDATA[config]]></item>
+					<item id="menu"><![CDATA[ÉèÖÃ]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[3]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[1]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+				<item id="2">
+					<item id="name"><![CDATA[about]]></item>
+					<item id="menu"><![CDATA[¹ØÓÚ]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[3]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[2]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+				<item id="3">
+					<item id="name"><![CDATA[get_newslist]]></item>
+					<item id="menu"><![CDATA[]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[3]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[0]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+					<item id="4">
+					<item id="name"><![CDATA[edit_post]]></item>
+					<item id="menu"><![CDATA[]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[3]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[0]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+			</item>
+		</item>
+		<item id="language">
+			<item id="scriptlang">
+				<item id="english"><![CDATA[ººÓï]]></item>
+			</item>
+			<item id="templatelang">
+				<item id="mhcollect_collect_choosesite"><![CDATA[Õ¾µãÑ¡Ôñ]]></item>
+				<item id="mhcollect_collect_choosemethod"><![CDATA[Ñ¡Ôñ·½Ê½]]></item>
+				<item id="mhcollect_collect_sina"><![CDATA[ÐÂÀË]]></item>				
+				<item id="mhcollect_collect_tencent"><![CDATA[ÌÚÑ¶]]></item>				
+				<item id="mhcollect_collect_163"><![CDATA[ÍøÒ×]]></item>				
+				<item id="mhcollect_collect_step1"><![CDATA[1.»ñÈ¡ÐÂÎÅÁÐ±í]]></item>
+				<item id="mhcollect_collect_step2"><![CDATA[2.Ñ¡ÔñÐè·¢²¼µÄÎÄÕÂ]]></item>
+				<item id="mhcollect_collect_step3"><![CDATA[3.±à¼­²¢·¢²¼ÎÄÕÂ]]></item>
+				<item id="mhcollect_newslist_title"><![CDATA[ÎÄÕÂÁÐ±í]]></item>
+				<item id="mhcollect_collect_warning0"><![CDATA[²É¼¯ÐëÖª]]></item>
+				<item id="mhcollect_collect_warning1"><![CDATA[ÏÖÔÚ½öÖ§³ÖÐÂÀËµÄÎÄÕÂ²É¼¯]]></item>
+				<item id="mhcollect_collect_warning2"><![CDATA[»ñÈ¡ÎÄÕÂÁÐ±íµÄËÙ¶È¸ù¾ÝÍøÂç»·¾³¶ø¶¨£¬µãÑ¡ºóÇëÄÍÐÄµÈ´ý¡£]]></item>
+				<item id="mhcollect_collect_warning3"><![CDATA[°æ±¾ºÅ:Ver 1.0 2012Äê12ÔÂ25ÈÕ]]></item>
+				<item id="mhcollect_collect_selecttime"><![CDATA[Ñ¡ÔñÐÂÎÅ·¢²¼µÄÊ±¼ä]]></item>
+				<item id="mhcollect_collect_selecttime_from"><![CDATA[´Ó:]]></item>
+				<item id="mhcollect_collect_selecttime_between"><![CDATA[Ê± ÖÁ:]]></item>
+				<item id="mhcollect_collect_selecttime_end"><![CDATA[Ê±]]></item>
+				<item id="mhcollect_collect_selecttime_day"><![CDATA[ÈÕÆÚ(ÔÂ-ÈÕ-Äê):]]></item>
+				<item id="mhcollect_collect_getkeywords"><![CDATA[»ñÈ¡º¬¹Ø¼ü´ÊµÄÐÂÎÅ]]></item>
+				<item id="mhcollect_collect_collectthroughnet"><![CDATA[ÁªÍø»ñÈ¡ÐÂÎÅÁÐ±í]]></item>
+				<item id="mhcollect_collect_readoffnet"><![CDATA[¶ÁÈ¡±¾µØÁÐ±í»º´æ]]></item>
+				<item id="mhcollect_submit"><![CDATA[Ìá½»]]></item>
+				<item id="mhcollect_startcollectnews"><![CDATA[¿ªÊ¼²É¼¯]]></item>
+				<item id="mhcollect_notcollect"><![CDATA[Î´²É¼¯]]></item>
+				<item id="mhcollect_collected"><![CDATA[ÒÑ²É¼¯]]></item>
+				<item id="mhcollect_pubtime"><![CDATA[·¢²¼Ê±¼ä(Ô­ÍøÕ¾)]]></item>
+				<item id="mhcollect_collectornot"><![CDATA[ÊÇ·ñ²É¼¯µ½±¾Õ¾]]></item>
+				<item id="mhcollect_newstitle"><![CDATA[ÎÄÕÂÁÐ±í]]></item>
+				<item id="mhcollect_editandpost_title"><![CDATA[±à¼­ÎÄÕÂ]]></item>
+				<item id="mhcollect_choose_forum"><![CDATA[Ñ¡Ôñ°æ¿é]]></item>
+				<item id="mhcollect_postnews"><![CDATA[·¢²¼ÎÄÕÂ]]></item>
+				<item id="mhcollect_newssubject"><![CDATA[±êÌâ:]]></item>
+				<item id="mhcollect_choose_author"><![CDATA[Ñ¡Ôñ·¢²¼ÈË:]]></item>
+				<item id="mhcollect_save"><![CDATA[±£´æ]]></item>
+				<item id="mhcollect_delete"><![CDATA[É¾³ý]]></item>
+				<item id="mhcollect_postedhint_title"><![CDATA[ÒÑ·¢²¼µÄÎÄÕÂ]]></item>
+				<item id="mhcollect_closehint"><![CDATA[¹Ø±ÕÌáÊ¾]]></item>
+				<item id="mhcollect_config_addmember"><![CDATA[ÌîÐ´ÒÑ×¢²áÓÃ»§ÉèÖÃÎª·¢²¼ÓÃ»§]]></item>
+				<item id="mhcollect_config_addxml"><![CDATA[ÌîÐ´Ìí¼ÓxmlÔ´]]></item>
+				<item id="mhcollect_config_membertodel"><![CDATA[Ñ¡ÔñÒÔÉ¾³ý·¢²¼ÓÃ»§(²»»áÉ¾³ýÓÃ»§×¢²áÐÅÏ¢)]]></item>
+				<item id="mhcollect_config_xmltodel"><![CDATA[Ñ¡ÔñÒÔÉ¾³ýxmlÔ´]]></item>
+				<item id="mhcollect_config_member"><![CDATA[ÉèÖÃ·¢²¼ÓÃ»§]]></item>
+				<item id="mhcollect_config_xml"><![CDATA[ÉèÖÃxmlÔ´]]></item>
+				<item id="mhcollect_add"><![CDATA[Ìí¼Ó]]></item>
+				<item id="mhcollect_member_beenenlist"><![CDATA[ÒÑÌí¼ÓÓÃ»§:]]></item>
+				<item id="mhcollect_member_nonexist"><![CDATA[¸ÃÓÃ»§²»´æÔÚ!]]></item>
+				<item id="mhcollect_random"><![CDATA[Ëæ»ú]]></item>
+				<item id="mhcollect_title_about"><![CDATA[¹ØÓÚ±¾²å¼þ]]></item>
+				<item id="mhcollect_collect_about1"><![CDATA[Èç¹ûÊ¹ÓÃÖÐÓÐ½¨Òé»òÕßÒâ¼û,¿ÉÒÔÔÚÃ×»¨ÂÛÌ³µÄ"<a href="http://bbs.mihua.net/forum-10-1.html">ÍøÂç,±à³Ì</a>"°å¿éÖÐÌá³ö]]></item>
+				<item id="mhcollect_collect_about2"><![CDATA[³ý´ËÖ®ÍâÒ²¿ÉÒÔÖ±½ÓÁªÏµ±¾ÈË¡£QQ:1718090900]]></item>
+				<item id="mhcollect_collect_about3"><![CDATA[<a href="http://bbs.mihua.net">Ã×»¨ÂÛÌ³ bbs.mihua.net</a>]]></item>
+			</item>
+		</item>
+		<item id="version"><![CDATA[X2,X2.5]]></item>
+		<item id="installfile"><![CDATA[install.php]]></item>
+		<item id="uninstallfile"><![CDATA[uninstall.php]]></item>
+	</item>
+</root>

@@ -1,0 +1,251 @@
+<script src="source/plugin/mhcollect/js/mhcollect.js" type="text/javascript"></script>
+<table class="tb">
+	<tr>
+		<td>
+			<ul class="stepstat">
+				<li id="step1" <!--{if $_POST[step] == ""}-->class="current"<!--{/if}-->>{lang mhcollect:mhcollect_collect_step1}</li>
+				<li id="step2" <!--{if $_POST[step] == "2"}-->class="current"<!--{/if}-->>{lang mhcollect:mhcollect_collect_step2}</li>
+				<li id="step3" <!--{if $_POST[step] == "3"}-->class="current"<!--{/if}-->>{lang mhcollect:mhcollect_collect_step3}</li>
+			</ul>
+		</td>
+	</tr>
+</table>
+<!--{if $_POST[step] == ""}-->
+<form method="post" action="admin.php?action=plugins&operation=config&do={$_G['gp_do']}&pmod=get_newslist" name="step1">
+	<input name="step" type="text" value="2" style="display:none">
+	<table class="tb tb2 ">
+		</tr>
+			<th colspan="15" class="partition">{lang mhcollect:mhcollect_collect_warning0}</th>
+		</tr>
+		<tr>
+			<td colspan="15" class="tipsblock" s="1">
+				<ul id="global_tiplis">
+					<li>{lang mhcollect:mhcollect_collect_warning1}</li>
+					<li>{lang mhcollect:mhcollect_collect_warning2}</li>
+				</ul>
+			</td>
+		</tr>
+		<tr>
+			<th colspan="15" class="partition">{lang mhcollect:mhcollect_collect_choosesite}</th>
+		</tr>
+		<tr class="hover">
+			<td width="20">
+				<input name="site" type="radio" class="radio" value="sina" checked="checked" />
+			</td>
+			<td width="80">
+				{lang mhcollect:mhcollect_collect_sina}
+			</td>
+			<td width="20">
+				<input name="site" type="radio" class="radio" value="tencent" disabled="disabled" />
+			</td>
+			<td width="80">
+				{lang mhcollect:mhcollect_collect_tencent}
+			</td>
+			<td width="20">
+				<input name="site" type="radio" class="radio" value="163" disabled="disabled"/>
+			</td>
+			<td width="80" >
+				{lang mhcollect:mhcollect_collect_163}
+			</td>
+			<td colspan="9"></td>
+		</tr>
+		<tr>
+			<th colspan="15" class="partition">
+				{lang mhcollect:mhcollect_collect_selecttime}</th>
+		</tr>
+		<tr class="hover">
+			<td colspan="6">
+				{lang mhcollect:mhcollect_collect_selecttime_from}
+				<select name="time_min">
+<!--{loop $time_min $key $value}-->
+					<option value="{$value}">{$value}</option>
+<!--{/loop}-->
+				</select>{lang mhcollect:mhcollect_collect_selecttime_between}
+				<select name="time_max">
+<!--{loop $time_max $key $value}-->
+					<option value="{$value}">{$value}</option>
+<!--{/loop}-->
+				</select>{lang mhcollect:mhcollect_collect_selecttime_end}
+			</td>
+			<td colspan="9">{lang mhcollect:mhcollect_collect_selecttime_day}
+				<select name="day">
+					
+<!--{loop $days $day $value}-->
+<option value="{$value}">{$value}</option>
+<!--{/loop}-->
+					
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<th colspan="15" class="partition">
+				{lang mhcollect:mhcollect_collect_choosemethod}
+			</th>
+		</tr>
+		<tr class="hover">
+			<td width="20"><input name="method" type="radio" class="radio" value="collectthroughnet" checked="checked"/></td>
+			<td colspan="2">{lang mhcollect:mhcollect_collect_collectthroughnet}</td>
+			<td></td>
+			<td width="20"><input name="method" type="radio" class="radio" value="readoffnet"/></td>
+			<td colspan="2">{lang mhcollect:mhcollect_collect_readoffnet}</td>
+		</tr>
+		<tr>
+			<td colspan="15"><input type="submit" class="btn" name="submit" value="{lang mhcollect:mhcollect_submit}" /></td>
+		</tr>
+	</table>
+</form>
+<!--{/if}-->
+<!--{if $_POST[step] == "2"}-->
+<table style="display:none">
+	<tr>
+		<td><input type="text" value="{$_POST['step']}" id="mhcollect_step"/></td>
+		<td><input type="text" value="{$_POST['time_min']}" id="mhcollect_timemin"/></td>
+		<td><input type="text" value="{$_POST['time_max']}" id="mhcollect_timemax"/></td>
+		<td><input type="text" value="{$_POST['site']}" id="mhcollect_site"/></td>
+		<td><input type="text" value="{$_POST['day']}" id="mhcollect_day"/></td>
+		<td><input type="text" value="{$_POST['method']}" id="mhcollect_method"/></td>
+		<td><input type="text" value="{$_POST['cate']}" id="mhcollect_cate"/></td>
+	</tr>
+</table>
+<form method="post" action="admin.php?action=plugins&operation=config&do={$_G['gp_do']}&pmod=edit_post" name="step2">
+	<input name="step" type="text" value="3" style="display:none">
+	<table class="tb tb2 " style="text-align:center">
+		<tr>
+			<th class="partition" colspan="4">{lang mhcollect:mhcollect_newslist_title}</th>
+			<th class="partition" style="text-align:center"><input type="submit" class="btn" name="submit" value="{lang mhcollect:mhcollect_startcollectnews}"></th>
+		</tr>
+		<tr>
+			<td>
+				<input class="pc" type="checkbox" onclick="checkall(this.form, 'mhcollectnewsid')" name="chkall">
+			</td>
+			<td>
+				<select id="mhcollect_cate" onchange=change_cate(this,$_G['gp_do'])>
+<!--{loop $list_cate $key $value}-->
+					<option value="$value">$value</option>
+<!--{/loop}-->
+				</select>
+			</td>
+			<td>{lang mhcollect:mhcollect_newstitle}</td>
+			<td>{lang mhcollect:mhcollect_pubtime}</td>
+			<td>{lang mhcollect:mhcollect_collectornot}</td>
+		</tr>
+<!--{loop $infonews $key $value}-->
+<!--{if $value['status'] == 1}-->
+		<tr class="hover" style="background-color:#494">
+<!--{/if}-->
+<!--{if $value['status'] == 0}-->
+		<tr class="hover">
+<!--{/if}-->
+			<td>
+				<input class="pc" type="checkbox" value="$value['id']" name="mhcollectnewsid[]" />
+			</td>
+			<td>$value['cate']</td>
+			<td>
+				<a href="$value['link']" tareget="_blank" title="$value['description']" target="_blank">$value['title']</a>
+			</td>
+			<td>$value['time']</td>
+<!--{if $value['status'] == 1}-->
+			<td>{lang mhcollect:mhcollect_collected}</td>
+<!--{/if}-->
+<!--{if $value['status'] == 0}-->
+			<td>{lang mhcollect:mhcollect_notcollect}</td>
+<!--{/if}-->
+		</tr>
+<!--{/loop}-->
+	</table>
+</form>
+<!--{/if}-->
+<!--{if $_POST[step] == "3"}-->
+<script src="source/plugin/mhcollect/js/mhcollect.js" type="text/javascript"></script>
+<!--{if $news_posted}-->
+<table class="tb tb2 " style="text-align:center">
+	<tr>
+		<th class="partition">
+			{lang mhcollect:mhcollect_postedhint_title}
+		</th>
+		<th class="partition" style="text-align:center">
+			<input type="submit" class="btn" value="{lang mhcollect:mhcollect_closehint}" onclick="close_hints(this)">
+		</th>
+	</tr>
+<!--{loop $news_posted $key $value}-->
+	<tr class="hover">
+		<td>
+			$news_posted[$key]['title']
+		</td>
+		<td>
+			$news_posted[$key]['href']
+		</td>
+	</tr>
+<!--{/loop}-->
+</table>  
+<!--{/if}-->
+<form method="post" action="admin.php?action=plugins&operation=config&do={$_G['gp_do']}&pmod=edit_post" name="step3">
+	<input name="step" type="text" value="3" style="display:none">
+	<table class="tb tb2 " style="text-align:center">
+		<tr>
+			<th class="partition" style="text-align:center">
+				<input class="pc" type="checkbox" onclick="checkall(this.form, 'needpostnewsid')" name="chkall">
+			</th>
+			<th class="partition" >{lang mhcollect:mhcollect_editandpost_title}</th>
+			<th class="partition" style="text-align:center">
+				{lang mhcollect:mhcollect_choose_forum}
+				<select name="forum">
+					<!--{loop $forum_list $key $value}-->
+						<option value="$value['fid']">$value['name']</option>
+					<!--{/loop}-->
+				</select>
+			</th>
+			<th class="partition" style="text-align:center">
+				{lang mhcollect:mhcollect_choose_author}
+				<select name="member">
+					<!--{if $member_list}-->
+					<option  value="-1">{lang mhcollect:mhcollect_random}</option>
+					<!--{loop $member_list $key $value}-->
+					<option value="$value['uid']">$value['uname']</option>
+					<!--{/loop}-->
+					<!--{/if}-->
+					<!--{if !$member_list}-->
+					<!--{/if}-->
+				</select>
+			</th>
+			<th class="partition" style="text-align:center">
+				<input type="submit" class="btn" name="submit" value="{lang mhcollect:mhcollect_postnews}">
+			</th>
+		</tr>
+<!--{loop $news_neededit $key $value}-->
+<!--{if $value['edit'] == 1}-->
+		<tr class="hover" id="trnews_$value['id']" style="background-color:#090">
+<!--{/if}-->
+<!--{if $value['edit'] == 0}-->
+		<tr class="hover" id="trnews_$value['id']">
+<!--{/if}-->
+			<td>
+				<input class="pc" type="checkbox" value="$value['id']" id="newsid_$value['id']" name="needpostnewsid[]" />
+			</td>
+			<td>$value['title']</td>
+			<td>
+				<input type="button" class="btn" value="ÐÞ¸Ä" onclick=show_editor(this.name) name="$value['id']" />
+			
+			</td>
+			<td>
+				<input type="button" class="btn" value="±£´æ" onclick=save_change(this.name,$_G['gp_do']) name="$value['id']"/>
+			
+			<td>
+				<input type="button" class="btn" value="É¾³ý" onclick=delete_news(this,$_G['gp_do']) name="$value['id']"/>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="6" style="display:none" name="editor[]" id="editor_$value['id']">
+				<span>
+					{lang mhcollect:mhcollect_newssubject}
+					<input type="text" value="$value['title']" style="width:700px;" id="title_$value['id']"/></span>
+				<br />
+				<textarea cols="120" rows="20" id="content_$value['id']">
+					$value['content']
+				</textarea>
+			</td>
+		</tr>
+<!--{/loop}-->
+	</table>
+
+<!--{/if}-->
