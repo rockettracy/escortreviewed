@@ -1,7 +1,7 @@
 #!/bin/bash
 
 function usage {
-  echo "./deploy.sh [-h] -e <dev|prod> -p <escort|baobaowiki>"
+  echo "./deploy.sh [-h] -e <dev|prod> -p <escort|baobaowiki|rategirl>"
   exit 0
 }
 
@@ -45,11 +45,16 @@ else
     if [ "$DEPLOY_PRODUCT" == "escort" ];then
       TARGET_PATH="/Users/kelinliu/Sites/escortreviewed"
       BACKUP_FOLDER="/Users/kelinliu/Sites/escortreviewed_bak"
-    else
+    elif [ "$DEPLOY_PRODUCT" == "escort" ];then
       TARGET_PATH="/Users/kelinliu/Sites/baobaowiki"
       BACKUP_FOLDER="/Users/kelinliu/Sites/baobaowiki_bak"
+    else
+      TARGET_PATH="/Users/kelinliu/Sites/rategirl"
+      BACKUP_FOLDER="/Users/kelinliu/Sites/rategirl_bak"
     fi
 fi
+mkdir -p $TARGET_PATH
+mkdir -p $BACKUP_FOLDER
 
 echo "stop Apache..."
 if [ "$DEPLOY_ENV" == "prod" ];then
@@ -67,10 +72,16 @@ DEPLOY_REV=`git log | grep ^commit | head -1 | cut -d ' ' -f 2`
 echo "deploy new branch: $BRANCH, ENV: $DEPLOY_ENV, REV: $DEPLOY_REV ..."
 if [ "$DEPLOY_PRODUCT" == "escort" ];then
   cd "$SOURCE_PATH/bbs15eng/upload"
-else
+elif [ "$DEPLOY_PRODUCT" == "baobaowiki" ];then
   cd "$SOURCE_PATH/baobaowiki/upload"
+else
+  cd "$SOURCE_PATH/rategirl/upload"
 fi
 sudo cp -r * "$TARGET_PATH/" 
+sudo chmod -R 777 "$TARGET_PATH/config"
+sudo chmod -R 777 "$TARGET_PATH/data"
+sudo chmod -R 777 "$TARGET_PATH/uc_client"
+sudo chmod -R 777 "$TARGET_PATH/uc_server"
 cd "$SOURCE_PATH"
 
 echo "start Apache..."
