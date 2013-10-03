@@ -82,6 +82,8 @@ sudo chmod -R 777 "$TARGET_PATH/config"
 sudo chmod -R 777 "$TARGET_PATH/data"
 sudo chmod -R 777 "$TARGET_PATH/uc_client"
 sudo chmod -R 777 "$TARGET_PATH/uc_server"
+sudo chmod -R 777 "$TARGET_PATH/source/plugin"
+sudo chmod -R 777 "$TARGET_PATH/template"
 cd "$SOURCE_PATH"
 
 echo "start Apache..."

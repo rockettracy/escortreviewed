@@ -1,0 +1,141 @@
+{subtemplate common/header}
+
+<link type="text/css" rel="stylesheet" href="{eval echo lev_fall::$PLSTATIC}css/fall.css">
+	
+<script type="text/javascript" src="{eval echo lev_fall::$PLSTATIC}dialog417/dialog.js?skin=default"></script>
+<script type="text/javascript" src="{eval echo lev_fall::$PLSTATIC}jquery.min.js"></script>
+
+<script type="text/javascript" src="{eval echo lev_fall::$PLSTATIC}jquery.masonry.min.js"></script>
+<script type="text/javascript" src="{eval echo lev_fall::$PLSTATIC}jquery.infinitescroll.min.js"></script>
+
+<div class="sdCon">
+<div style="background:#f5f5f5; padding-bottom:20px; border:1px solid #d5d5d5; margin:0 auto;min-height:300px;height:auto!important;height:300px;"> 
+
+<div class="fallc clearfix">
+	<div class="item_list infinite_scroll">
+	<div class="item masonry_brick">
+			<div class="item_t" style="margin-bottom:10px;">
+				<div class="navtitle">
+					<table width="210" cellspacing="0">
+					<tr><td><a href="plugin.php?id=levfall:lev">{$lev_lang[nav]}</a></td></tr>
+					</table>
+				</div>
+				{loop $forums $f}
+				{if $f[fup] && ($fnums < lev_fall::$PL_G[nav_nums] || $navall)}
+				{eval $fnums++;}
+				<div class="navtc" {if $f[fid] == $__fids}style="background:#f9f9f9"{/if}>
+					<table width="210" cellspacing="0">
+					<tr><td><a href="plugin.php?id=levfall:lev&na={$navall}&fid={$f[fid]}">{$f[name]}</a></td></tr>
+					</table>
+				</div>
+				{/if}
+				{/loop}
+				{if !$navall && count($forums) > lev_fall::$PL_G[nav_nums]}
+				<div class="navtitle">
+					<table width="210" cellspacing="0">
+					<tr><td><a href="plugin.php?id=levfall:lev&na=1">{$lev_lang[all]}</a></td></tr>
+					</table>
+				</div>
+				{/if}
+			</div>
+		</div><!--item end-->
+		{eval include template (lev_fall::$PLNAME.':page');}
+	</div>
+					
+					
+	<div id="more"><a href="{eval echo lev_fall::$PLURL}&ajax={$_GET['page']}&page=2"></a></div>
+					
+	<div id="page" class="page" style="display:none;">{$pages}</div>
+
+</div>
+
+</div></div>
+
+<script type="text/javascript">
+
+var $$ = jQuery.noConflict();//���� jQuery �����ͻ
+
+//var isWidescreen=screen.width>=1280; 
+//if(isWidescreen){document.write("<style type='text/css'>.fallc{width:1194px;}</style>");}
+
+</script>
+
+<script type="text/javascript">
+
+var autopage = {$autopage};
+
+function item_masonry(){ 
+	$$('.item img').load(function(){ 
+		$$('.infinite_scroll').masonry({ 
+			itemSelector: '.masonry_brick',
+			columnWidth:226,
+			gutterWidth:15								
+		});		
+	});
+		
+	$$('.infinite_scroll').masonry({ 
+		itemSelector: '.masonry_brick',
+		columnWidth:226,
+		gutterWidth:15,							
+	});	
+}
+
+$$(function(){
+
+	function item_callback(){ 
+		
+		$$('.item').mouseover(function(){
+			$$(this).css('box-shadow', '0 1px 5px rgba(35,25,25,0.5)');
+			$$('.btns',this).show();
+		}).mouseout(function(){
+			$$(this).css('box-shadow', '0 1px 3px rgba(34,25,25,0.2)');
+			$$('.btns',this).hide();		 	
+		});
+		
+		item_masonry();	
+
+	}
+
+	item_callback();  
+
+	$$('.item').fadeIn();
+
+	var sp = 1
+	
+	$$(".infinite_scroll").infinitescroll({
+		navSelector  	: "#more",
+		nextSelector 	: "#more a",
+		itemSelector 	: ".item",
+		
+		loading:{
+			img: "{eval echo lev_fall::$PLSTATIC}images/loading2.gif",
+			msgText: '{$lev_lang[loading]}',
+			finishedMsg: '{$lev_lang[finish]}',
+			finished: function(){
+				sp++;
+				if(sp > autopage){ //js stop auto loading....
+					$$("#more").remove();
+					$$("#infscr-loading").hide();
+					$$("#page").show();
+					$$(window).unbind('.infscr');
+				}
+			}	
+		},errorCallback:function(){ 
+			$$("#page").show();
+		}
+		
+	},function(newElements){
+		var $$newElems = $$(newElements);
+		$$('.infinite_scroll').masonry('appended', $$newElems, true);
+		$$newElems.fadeIn();
+		item_callback();
+		return;
+	});
+
+});
+
+function favoriteupdate() {}
+
+</script>
+
+{subtemplate common/footer}

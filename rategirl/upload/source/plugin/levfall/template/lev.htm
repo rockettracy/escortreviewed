@@ -1,0 +1,125 @@
+{subtemplate common/header}
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<!--[if lt IE 9]><script src="{eval echo lev_fall::$PLSTATIC}html5.js"></script><![endif]-->
+  
+<link type="text/css" rel="stylesheet" href="{eval echo lev_fall::$PLSTATIC}css/fall.css">
+
+<script type="text/javascript" src="{eval echo lev_fall::$PLSTATIC}dialog417/dialog.js?skin=default"></script>
+<script type="text/javascript" src="{eval echo lev_fall::$PLSTATIC}jquery.min.js"></script>
+
+<script type="text/javascript" src="{eval echo lev_fall::$PLSTATIC}jquery.masonry.min.js"></script>
+<script type="text/javascript" src="{eval echo lev_fall::$PLSTATIC}jquery.infinitescroll.min.js"></script>
+
+<div class="sdCon">
+<div style="background:#f5f5f5; padding-bottom:20px; border:1px solid #d5d5d5; margin:0 auto;min-height:300px;height:auto!important;height:300px;"> 
+
+<div class="fallc clearfix" id="fallc">
+	<div class="item_list infinite_scroll" id="infinite_scroll">
+	<div class="item masonry_brick">
+			<div class="item_t" style="margin-bottom:10px;">
+				<div class="navtitle">
+					<table width="210" cellspacing="0">
+					<tr><td><a href="plugin.php?id=levfall:lev">{$lev_lang[nav]}</a></td></tr>
+					</table>
+				</div>
+				{loop $forums $f}
+				{if $f[fup] && ($fnums < lev_fall::$PL_G[nav_nums] || $navall)}
+				{eval $fnums++;}
+				<div class="navtc" {if $f[fid] == $__fids}style="background:#f9f9f9"{/if}>
+					<table width="210" cellspacing="0">
+					<tr><td><a href="plugin.php?id=levfall:lev&na={$navall}&fid={$f[fid]}">{$f[name]}</a></td></tr>
+					</table>
+				</div>
+				{/if}
+				{/loop}
+				{if !$navall && count($forums) > lev_fall::$PL_G[nav_nums]}
+				<div class="navtitle">
+					<table width="210" cellspacing="0">
+					<tr><td><a href="plugin.php?id=levfall:lev&na=1">{$lev_lang[all]}</a></td></tr>
+					</table>
+				</div>
+				{/if}
+			</div>
+		</div><!--item end-->
+		{eval include template (lev_fall::$PLNAME.':page');}
+	</div>
+					
+					
+	<div id="more"><a href="{eval echo lev_fall::$PLURL}&ajax={$_GET['page']}&page=2"></a></div>
+					
+	<div id="page" class="page" style="display:none;">{$pages}</div>
+
+</div>
+
+</div></div>
+
+<script type="text/javascript">
+
+var $$ = jQuery.noConflict();
+
+</script>
+<script type="text/javascript">
+
+  $$('#switchwidth').click(function() {window.setTimeout("widthfall()", 100);});
+  
+  widthfall();
+	
+  function loadfall(){
+	    item_callback();
+	    var container = $$('#infinite_scroll');
+	    
+	    container.imagesLoaded(function(){
+	      container.masonry({
+	        itemSelector: '.item',
+			columnWidth:226,
+			gutterWidth:15		
+	      });
+	    });
+	    
+	    container.infinitescroll({
+	      navSelector  : '#more',
+	      nextSelector : '#more a',
+	      itemSelector : '.item', 
+	      loading: {
+			  msgText: '{$lev_lang[loading]}',
+	          finishedMsg: '{$lev_lang[finish]}',
+	          img: '{eval echo lev_fall::$PLSTATIC}images/loading2.gif'
+	        },errorCallback:function(){ 
+				$$("#page").show();
+			}
+	      },
+	      function( newElements ) {
+	       	 var $$newElems = $$( newElements ).css({ opacity: 0 });
+	       	$$newElems.imagesLoaded(function(){
+		         $$newElems.animate({ opacity: 1 });
+		         container.masonry( 'appended', $$newElems, true ); 
+		  		 item_callback();
+	        });
+	      }
+	    );
+	    
+  }
+
+  function item_callback(){ 
+		$$('.item').hover(function(){
+			$$(this).css('box-shadow', '0 1px 5px rgba(35,25,25,0.5)');
+			$$('.btns',this).show();
+		}, function(){
+			$$(this).css('box-shadow', '0 1px 3px rgba(34,25,25,0.2)');
+			$$('.btns',this).hide();		 	
+		});
+  }
+	
+  function widthfall() {
+  	 var screenwidth = $$('#wp').width();
+  	 fallwidth = parseInt((screenwidth - 950) / 244) * 244 + 950;
+     $$('#fallc').css({'width':fallwidth +'px'});
+	 loadfall();
+  }
+
+  function favoriteupdate() {}
+  
+</script>
+
+{subtemplate common/footer}
