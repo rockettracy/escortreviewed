@@ -40,5 +40,10 @@ runhooks($_GET['do'] == 'profile' && $_G['inajax'] ? 'card' : $_GET['do']);
 
 require_once libfile('home/'.$mod, 'module');
 
+//back from paypal.
+if(!empty($_GET['buy_ok'])) {
+	C::t('common_member_count')->increase($_G['uid'], array('extcredits2' => $_GET['money_num']));
+}
+
 
 ?>
