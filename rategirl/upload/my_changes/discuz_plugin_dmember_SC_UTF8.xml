@@ -1,0 +1,1123 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Plugin]]></item>
+	<item id="Version"><![CDATA[X3]]></item>
+	<item id="Time"><![CDATA[2013-07-10 15:49]]></item>
+	<item id="From"><![CDATA[Discuz! Board (http://www.discuzcms.com/)]]></item>
+	<item id="Data">
+		<item id="plugin">
+			<item id="available"><![CDATA[1]]></item>
+			<item id="adminid"><![CDATA[1]]></item>
+			<item id="name"><![CDATA[【深蓝】婚恋交友]]></item>
+			<item id="identifier"><![CDATA[dmember]]></item>
+			<item id="description"><![CDATA[原：521交友中心，【深蓝科技】DISCUZ社区盈利计划启动！高端站长的一致选择！【Discuz!CMS深蓝科技】官方网站：www.DiscuzCMS.com，客服QQ：904416539]]></item>
+			<item id="datatables"><![CDATA[]]></item>
+			<item id="directory"><![CDATA[dmember/]]></item>
+			<item id="copyright"><![CDATA[【DISCUZ!CMS深蓝应用】版权所有.【官方网站】WWW.DISCUZCMS.COM【客服QQ】904416539]]></item>
+			<item id="version"><![CDATA[7.5]]></item>
+			<item id="__modules">
+				<item id="0">
+					<item id="name"><![CDATA[dmember]]></item>
+					<item id="menu"><![CDATA[交友大厅]]></item>
+					<item id="url"><![CDATA[jiaoyou.php]]></item>
+					<item id="type"><![CDATA[1]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[0]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+				<item id="1">
+					<item id="name"><![CDATA[dmember]]></item>
+					<item id="menu"><![CDATA[]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[11]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[0]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+				<item id="2">
+					<item id="name"><![CDATA[admin_buylog]]></item>
+					<item id="menu"><![CDATA[1.消费记录]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[3]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[1]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+				<item id="3">
+					<item id="name"><![CDATA[admin_profilesetting]]></item>
+					<item id="menu"><![CDATA[2.字段管理]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[3]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[2]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+				<item id="4">
+					<item id="name"><![CDATA[admin_datacenter]]></item>
+					<item id="menu"><![CDATA[3.数据中心]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[3]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[3]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+				<item id="5">
+					<item id="name"><![CDATA[admin_install]]></item>
+					<item id="menu"><![CDATA[4.安装步骤(必看)]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[3]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[4]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+				<item id="6">
+					<item id="name"><![CDATA[admin_help]]></item>
+					<item id="menu"><![CDATA[5.使用说明]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[3]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[5]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+				<item id="7">
+					<item id="name"><![CDATA[admin_yl]]></item>
+					<item id="menu"><![CDATA[6.赢利点]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[3]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[6]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+			</item>
+		</item>
+<item id="version"><![CDATA[X1.5,X2,X2.5,X3]]></item>
+		<item id="var">
+			<item id="0">
+				<item id="displayorder"><![CDATA[1]]></item>
+				<item id="title"><![CDATA[站点地址]]></item>
+				<item id="description"><![CDATA[例 : "http://www.discuzcms.com/" ,"http"开头, "/" 结尾,的论坛地址]]></item>
+				<item id="variable"><![CDATA[siteurl]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[http://www.discuzcms.com/]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="1">
+				<item id="displayorder"><![CDATA[2]]></item>
+				<item id="title"><![CDATA[模板选择]]></item>
+				<item id="description"><![CDATA[模版目录:source\plugin\dmember\template
+default=默认
+blue=蓝色
+user1=自定义1
+user2=自定义2
+user3=自定义3]]></item>
+				<item id="variable"><![CDATA[template]]></item>
+				<item id="type"><![CDATA[select]]></item>
+				<item id="value"><![CDATA[default]]></item>
+				<item id="extra"><![CDATA[default=默认
+blue=蓝色
+user1=自定义1
+user2=自定义2
+user3=自定义3]]></item>
+			</item>
+			<item id="2">
+				<item id="displayorder"><![CDATA[3]]></item>
+				<item id="title"><![CDATA[插件标题名]]></item>
+				<item id="description"><![CDATA[默认插件标题名,例 : "521交友中心"]]></item>
+				<item id="variable"><![CDATA[title]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[521交友中心]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="3">
+				<item id="displayorder"><![CDATA[4]]></item>
+				<item id="title"><![CDATA[自动更新交友用户]]></item>
+				<item id="description"><![CDATA[]]></item>
+				<item id="variable"><![CDATA[auto_update]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="4">
+				<item id="displayorder"><![CDATA[6]]></item>
+				<item id="title"><![CDATA[显示社区头部]]></item>
+				<item id="description"><![CDATA[]]></item>
+				<item id="variable"><![CDATA[head]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="5">
+				<item id="displayorder"><![CDATA[7]]></item>
+				<item id="title"><![CDATA[登陆后浏览]]></item>
+				<item id="description"><![CDATA[]]></item>
+				<item id="variable"><![CDATA[login]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="6">
+				<item id="displayorder"><![CDATA[8]]></item>
+				<item id="title"><![CDATA[开启留言板]]></item>
+				<item id="description"><![CDATA[]]></item>
+				<item id="variable"><![CDATA[comment]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="7">
+				<item id="displayorder"><![CDATA[9]]></item>
+				<item id="title"><![CDATA[强制资料完整]]></item>
+				<item id="description"><![CDATA[]]></item>
+				<item id="variable"><![CDATA[profilelock]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="8">
+				<item id="displayorder"><![CDATA[10]]></item>
+				<item id="title"><![CDATA[显示真实姓名]]></item>
+				<item id="description"><![CDATA[]]></item>
+				<item id="variable"><![CDATA[realname]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="9">
+				<item id="displayorder"><![CDATA[11]]></item>
+				<item id="title"><![CDATA[隐藏discuz搜索条]]></item>
+				<item id="description"><![CDATA[]]></item>
+				<item id="variable"><![CDATA[scbar]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="10">
+				<item id="displayorder"><![CDATA[14]]></item>
+				<item id="title"><![CDATA[每页显示会员]]></item>
+				<item id="description"><![CDATA[]]></item>
+				<item id="variable"><![CDATA[perpage]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[10]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="11">
+				<item id="displayorder"><![CDATA[15]]></item>
+				<item id="title"><![CDATA[最大图片展示数]]></item>
+				<item id="description"><![CDATA[ (推荐5的倍数,例如 5,10,15,20 等等) ]]></item>
+				<item id="variable"><![CDATA[max_pic]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[10]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="12">
+				<item id="displayorder"><![CDATA[16]]></item>
+				<item id="title"><![CDATA[如何获取积分(链接)]]></item>
+				<item id="description"><![CDATA[连接到论坛的帖子页面,给予用户详细的介绍]]></item>
+				<item id="variable"><![CDATA[helplink]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[http://www.521.sh/sh-521-26639-1-1.html]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="13">
+				<item id="displayorder"><![CDATA[17]]></item>
+				<item id="title"><![CDATA[在线客服QQ]]></item>
+				<item id="description"><![CDATA[]]></item>
+				<item id="variable"><![CDATA[qq]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[904416539]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="14">
+				<item id="displayorder"><![CDATA[18]]></item>
+				<item id="title"><![CDATA[如何办理VIP(链接)]]></item>
+				<item id="description"><![CDATA[连接到论坛的帖子页面,给予用户详细的介绍]]></item>
+				<item id="variable"><![CDATA[viplink]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[http://www.521.sh/sh-521-27166-1-1.html]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="15">
+				<item id="displayorder"><![CDATA[19]]></item>
+				<item id="title"><![CDATA[绑定VIP用户组]]></item>
+				<item id="description"><![CDATA[ VIP权限
+1. 交友中心VIP身份标识
+2. 搜索结果优先展示
+3. 免积分查看联系方式]]></item>
+				<item id="variable"><![CDATA[vipgroup]]></item>
+				<item id="type"><![CDATA[groups]]></item>
+				<item id="extra"><![CDATA[]]></item>
+				<item id="__value">
+					<item id="0"><![CDATA[10]]></item>
+					<item id="1"><![CDATA[11]]></item>
+					<item id="2"><![CDATA[12]]></item>
+					<item id="3"><![CDATA[13]]></item>
+					<item id="4"><![CDATA[14]]></item>
+					<item id="5"><![CDATA[15]]></item>
+					<item id="6"><![CDATA[20]]></item>
+					<item id="7"><![CDATA[21]]></item>
+					<item id="8"><![CDATA[22]]></item>
+				</item>
+			</item>
+			<item id="16">
+				<item id="displayorder"><![CDATA[20]]></item>
+				<item id="title"><![CDATA[VIP免积分查看联系方式]]></item>
+				<item id="description"><![CDATA[ VIP用户特殊权限]]></item>
+				<item id="variable"><![CDATA[vipcontact]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="17">
+				<item id="displayorder"><![CDATA[21]]></item>
+				<item id="title"><![CDATA[只显示身份验证用户]]></item>
+				<item id="description"><![CDATA[关闭此项功能,所有用户都会显示. 
+
+开启此项功能,插件将会只显示验证用户. ]]></item>
+				<item id="variable"><![CDATA[userlock]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="18">
+				<item id="displayorder"><![CDATA[22]]></item>
+				<item id="title"><![CDATA[绑定认证代号]]></item>
+				<item id="description"><![CDATA[后台 - 用户 - [认证设置] 查看认证代号
+例如:verify1]]></item>
+				<item id="variable"><![CDATA[usergroup]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[verify1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="19">
+				<item id="displayorder"><![CDATA[23]]></item>
+				<item id="title"><![CDATA[绑定消费积分]]></item>
+				<item id="description"><![CDATA[ 支付宝充值/财付通充值接口:论坛后台:全局-积分设置-基本设置 -"交易积分设置" 选择充值接口使用的积分种类
+
+ 例:交友中心 使用 extcredits2 , 在"交易积分设置"选择 extcredits2 即可实现接口充值]]></item>
+				<item id="variable"><![CDATA[buycredit]]></item>
+				<item id="type"><![CDATA[extcredit]]></item>
+				<item id="value"><![CDATA[2]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="20">
+				<item id="displayorder"><![CDATA[24]]></item>
+				<item id="title"><![CDATA[鲜花消费]]></item>
+				<item id="description"><![CDATA[赠送一个鲜花需花费积分 单位: (个) ]]></item>
+				<item id="variable"><![CDATA[flower]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="21">
+				<item id="displayorder"><![CDATA[25]]></item>
+				<item id="title"><![CDATA[查看联系方式消费]]></item>
+				<item id="description"><![CDATA[查看联系方式需花费积分 单位: (次) ]]></item>
+				<item id="variable"><![CDATA[contact]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="22">
+				<item id="displayorder"><![CDATA[26]]></item>
+				<item id="title"><![CDATA[消费积分的单位]]></item>
+				<item id="description"><![CDATA[ (例:金币,交友币等) 
+ 积分单位:插件前台的消费种类名称,在 交友的快捷链接中 也会使用此设定
+
+ 例:充值金币, 充值交友币"]]></item>
+				<item id="variable"><![CDATA[creditname]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[金币]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="23">
+				<item id="displayorder"><![CDATA[27]]></item>
+				<item id="title"><![CDATA[(19)	搜索:默认省/直辖市]]></item>
+				<item id="description"><![CDATA[在 - "全局" - "地区设置" 里寻找]]></item>
+				<item id="variable"><![CDATA[resideprovince]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="24">
+				<item id="displayorder"><![CDATA[28]]></item>
+				<item id="title"><![CDATA[(20)	搜索:默认市/区]]></item>
+				<item id="description"><![CDATA[]]></item>
+				<item id="variable"><![CDATA[residecity]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="25">
+				<item id="displayorder"><![CDATA[29]]></item>
+				<item id="title"><![CDATA[(21)	搜索:默认市/县]]></item>
+				<item id="description"><![CDATA[]]></item>
+				<item id="variable"><![CDATA[residedist]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="26">
+				<item id="displayorder"><![CDATA[30]]></item>
+				<item id="title"><![CDATA[(22)	搜索:默认乡镇/街道]]></item>
+				<item id="description"><![CDATA[]]></item>
+				<item id="variable"><![CDATA[residecommunity]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="27">
+				<item id="displayorder"><![CDATA[31]]></item>
+				<item id="title"><![CDATA[(23)	搜索:有照片]]></item>
+				<item id="description"><![CDATA[]]></item>
+				<item id="variable"><![CDATA[avatarstatus]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="28">
+				<item id="displayorder"><![CDATA[32]]></item>
+				<item id="title"><![CDATA[(24)	搜索:年龄最小]]></item>
+				<item id="description"><![CDATA[最小年龄1,例如 1 - 99
+最小年龄0,不限年龄]]></item>
+				<item id="variable"><![CDATA[age1]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[0]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="29">
+				<item id="displayorder"><![CDATA[33]]></item>
+				<item id="title"><![CDATA[(25)	搜索:年龄最大]]></item>
+				<item id="description"><![CDATA[]]></item>
+				<item id="variable"><![CDATA[age2]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[99]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="30">
+				<item id="displayorder"><![CDATA[34]]></item>
+				<item id="title"><![CDATA[(26)	搜索:默认性别]]></item>
+				<item id="description"><![CDATA[]]></item>
+				<item id="variable"><![CDATA[gender]]></item>
+				<item id="type"><![CDATA[select]]></item>
+				<item id="value"><![CDATA[0]]></item>
+				<item id="extra"><![CDATA[1 = 帅哥
+2 = 美女
+0 = 不限]]></item>
+			</item>
+			<item id="31">
+				<item id="displayorder"><![CDATA[35]]></item>
+				<item id="title"><![CDATA[(27)非VIP搜索限制]]></item>
+				<item id="description"><![CDATA[非VIP搜索结果最多可显示人数,设置0未不限制]]></item>
+				<item id="variable"><![CDATA[vip_search]]></item>
+				<item id="type"><![CDATA[text]]></item>
+				<item id="value"><![CDATA[40]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="32">
+				<item id="displayorder"><![CDATA[36]]></item>
+				<item id="title"><![CDATA[[推荐设置]首页顶右]]></item>
+				<item id="description"><![CDATA[ 最少8个UID才会显示
+ 填写用户UID,逗号隔开
+ 这里请注意隔开符号是英文逗号"," ,不是中文逗号","
+ 填写用户的UID,例:1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18 每个UID以","隔开
+ 另:如果填写的推荐UID不显示,也许会有无效的UID,不是过滤之 ...]]></item>
+				<item id="variable"><![CDATA[tuijian_index_top]]></item>
+				<item id="type"><![CDATA[textarea]]></item>
+				<item id="value"><![CDATA[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="33">
+				<item id="displayorder"><![CDATA[37]]></item>
+				<item id="title"><![CDATA[[诚信用户]美女推荐]]></item>
+				<item id="description"><![CDATA[ 这里请注意隔开符号是英文逗号","]]></item>
+				<item id="variable"><![CDATA[tuijian_index_cx_f]]></item>
+				<item id="type"><![CDATA[textarea]]></item>
+				<item id="value"><![CDATA[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="34">
+				<item id="displayorder"><![CDATA[38]]></item>
+				<item id="title"><![CDATA[[诚信用户]帅哥推荐]]></item>
+				<item id="description"><![CDATA[ 这里请注意隔开符号是英文逗号","]]></item>
+				<item id="variable"><![CDATA[tuijian_index_cx_m]]></item>
+				<item id="type"><![CDATA[textarea]]></item>
+				<item id="value"><![CDATA[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="35">
+				<item id="displayorder"><![CDATA[39]]></item>
+				<item id="title"><![CDATA[[推荐设置]全局右下]]></item>
+				<item id="description"><![CDATA[ 这里请注意隔开符号是英文逗号","]]></item>
+				<item id="variable"><![CDATA[tuijian_global]]></item>
+				<item id="type"><![CDATA[textarea]]></item>
+				<item id="value"><![CDATA[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="36">
+				<item id="displayorder"><![CDATA[40]]></item>
+				<item id="title"><![CDATA[交友头部提示信息]]></item>
+				<item id="description"><![CDATA[谨慎交友,请勿将自己的真实信息告诉给他人. 相约见面时,最好有朋友陪同. 否则出现问题,后果自负. ]]></item>
+				<item id="variable"><![CDATA[head_tips]]></item>
+				<item id="type"><![CDATA[textarea]]></item>
+				<item id="value"><![CDATA[谨慎交友,请勿将自己的真实信息告诉给他人. 相约见面时,最好有朋友陪同. 否则出现问题,后果自负. ]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="37">
+				<item id="displayorder"><![CDATA[41]]></item>
+				<item id="title"><![CDATA[送花提醒]]></item>
+				<item id="description"><![CDATA[{user} : 用户名 {num} : 数量 {url} : 链接地址]]></item>
+				<item id="variable"><![CDATA[flower_tips]]></item>
+				<item id="type"><![CDATA[textarea]]></item>
+				<item id="value"><![CDATA[{user}赠送了您{num}朵花,请查看{url}]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="38">
+				<item id="displayorder"><![CDATA[42]]></item>
+				<item id="title"><![CDATA[暗恋提醒]]></item>
+				<item id="description"><![CDATA[{user} : 用户名 {url} : 链接地址]]></item>
+				<item id="variable"><![CDATA[contact_tips]]></item>
+				<item id="type"><![CDATA[textarea]]></item>
+				<item id="value"><![CDATA[{user}暗恋您,请查看{url}]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="39">
+				<item id="displayorder"><![CDATA[43]]></item>
+				<item id="title"><![CDATA[SEO_关键词]]></item>
+				<item id="description"><![CDATA[]]></item>
+				<item id="variable"><![CDATA[seo_keywords]]></item>
+				<item id="type"><![CDATA[textarea]]></item>
+				<item id="value"><![CDATA[SEO_关键词:]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="40">
+				<item id="displayorder"><![CDATA[44]]></item>
+				<item id="title"><![CDATA[SEO_描述]]></item>
+				<item id="description"><![CDATA[]]></item>
+				<item id="variable"><![CDATA[seo_description]]></item>
+				<item id="type"><![CDATA[textarea]]></item>
+				<item id="value"><![CDATA[SEO_描述:]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="41">
+				<item id="displayorder"><![CDATA[45]]></item>
+				<item id="title"><![CDATA[SEO_标题口号]]></item>
+				<item id="description"><![CDATA[]]></item>
+				<item id="variable"><![CDATA[seo_title]]></item>
+				<item id="type"><![CDATA[textarea]]></item>
+				<item id="value"><![CDATA[SEO_标题:]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+			<item id="42">
+				<item id="displayorder"><![CDATA[46]]></item>
+				<item id="title"><![CDATA[自定义CSS]]></item>
+				<item id="description"><![CDATA[.dmember { width:960px !important;}
+为系统默认,无经验用户请勿修改]]></item>
+				<item id="variable"><![CDATA[diy_css]]></item>
+				<item id="type"><![CDATA[textarea]]></item>
+				<item id="value"><![CDATA[.dmember { width:960px !important;}]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+		</item>
+		<item id="language">
+			<item id="scriptlang">
+				<item id="admin">
+					<item id="gengxinchenggong"><![CDATA[更新成功!<p>总用户]]></item>
+					<item id="succeed"><![CDATA[操作成功!]]></item>
+					<item id="table_not_exist"><![CDATA[[数据表]_______________[不存在]]]></item>
+					<item id="table_right"><![CDATA[验证成功!521交友中心数据完整!]]></item>
+					<item id="dmember_profile_setting"><![CDATA[INSERT INTO `cdb_dmember_profile_setting` VALUES ('dp_f_gender', '对方性别', '0', '0', '0', 'select', '男\r\n女', '0', '');
+INSERT INTO `cdb_dmember_profile_setting` VALUES ('dp_f_age', '对方年龄段', '0', '0', '0', 'system', '', '0', '');
+INSERT INTO `cdb_dmember_profile_setting` VALUES ('dp_f_revenue', '对方年收入', '0', '0', '0', 'select', '(不要求)\r\n3\r\n6\r\n9\r\n12\r\n15', '0', '万以上');
+INSERT INTO `cdb_dmember_profile_setting` VALUES ('dp_f_area', '对方区域', '0', '0', '0', 'select', '不限\r\n北方人\r\n南方人\r\n外籍人士', '0', '');
+INSERT INTO `cdb_dmember_profile_setting` VALUES ('dp_f_resideprovince', '对方所在地', '0', '0', '0', 'system', '', '0', '');
+INSERT INTO `cdb_dmember_profile_setting` VALUES ('dp_f_birthprovince', '对方出生地', '0', '0', '0', 'system', '', '0', '');
+INSERT INTO `cdb_dmember_profile_setting` VALUES ('dp_f_smoke', '对方是否吸烟', '0', '0', '0', 'select', '不吸烟\r\n社交时吸\r\n经常吸', '0', '');
+INSERT INTO `cdb_dmember_profile_setting` VALUES ('dp_f_drink', '对方是否饮酒', '0', '0', '0', 'select', '不喝酒\r\n社交时喝\r\n经常喝', '0', '');
+INSERT INTO `cdb_dmember_profile_setting` VALUES ('dp_mystyle', '个性', '0', '0', '0', 'select', '浪漫迷人\r\n成熟稳重\r\n风趣幽默\r\n乐天达观\r\n活泼可爱\r\n忠厚老实\r\n淳朴害羞\r\n温柔体贴\r\n多愁善感\r\n新潮时尚\r\n热辣动感\r\n豪放不羁', '0', '');
+INSERT INTO `cdb_dmember_profile_setting` VALUES ('dp_mylove', '爱情观', '0', '0', '0', 'select', '一切随缘\r\n一见钟情\r\n日久生情', '0', '');
+INSERT INTO `cdb_dmember_profile_setting` VALUES ('dp_live', '住房情况', '0', '0', '0', 'select', '自己独住\r\n和朋友同住\r\n和父母同住', '0', '');
+INSERT INTO `cdb_dmember_profile_setting` VALUES ('dp_size', '体型', '0', '0', '0', 'select', '很瘦\r\n较瘦\r\n苗条\r\n匀称\r\n高挑\r\n丰满\r\n健壮\r\n较胖\r\n胖', '0', '');
+INSERT INTO `cdb_dmember_profile_setting` VALUES ('dp_smoke', '是否吸烟', '0', '0', '0', 'select', '不吸烟\r\n社交时吸\r\n经常吸', '0', '');
+INSERT INTO `cdb_dmember_profile_setting` VALUES ('dp_drink', '是否饮酒', '0', '0', '0', 'select', '不喝酒\r\n社交时喝\r\n经常喝', '0', '');
+INSERT INTO `cdb_dmember_profile_setting` VALUES ('dp_car', '买车情况', '0', '0', '0', 'select', '已购车\r\n未购车', '0', '');
+INSERT INTO `cdb_dmember_profile_setting` VALUES ('dp_house', '买房情况', '0', '0', '0', 'select', '已购房\r\n未购房', '0', '');
+INSERT INTO `cdb_dmember_profile_setting` VALUES ('dp_children', '有无子女', '0', '0', '0', 'select', '无\r\n有', '0', '');
+INSERT INTO `cdb_dmember_profile_setting` VALUES ('dp_wantchild', '是否要孩子', '0', '0', '0', 'select', '愿意\r\n不愿意\r\n视情况而定', '0', '');
+INSERT INTO `cdb_dmember_profile_setting` VALUES ('dp_interest', '兴趣', '0', '0', '0', 'select', '运动\r\n聊天\r\n游泳\r\n台球\r\n唱歌\r\n旅游', '0', '');
+INSERT INTO `cdb_dmember_profile_setting` VALUES ('dp_skill', '技能', '0', '0', '0', 'select', '驾驶\r\n英语\r\n游泳\r\n烹饪\r\n减肥\r\n电脑\r\n养生\r\n武术\r\n声乐\r\n运动', '0', '');
+INSERT INTO `cdb_dmember_profile_setting` VALUES ('dp_wantskill', '想学技能', '0', '0', '0', 'select', '驾驶\r\n英语\r\n游泳\r\n烹饪\r\n减肥\r\n电脑\r\n养生\r\n武术\r\n声乐\r\n运动', '0', '');
+INSERT INTO `cdb_dmember_profile_setting` VALUES ('dp_wantjoin', '愿意参与的活动', '0', '0', '0', 'select', '不参与\r\n单身聚会\r\nK歌\r\n结伴旅行\r\n其他聚会', '0', '');]]></item>
+					<item id="profile_setting_ok"><![CDATA[操作成功!初始化交友中心扩展字段]]></item>
+					<item id="dmember_datacenter"><![CDATA[交友中心数据中心]]></item>
+					<item id="update_ok"><![CDATA[更新完毕!]]></item>
+					<item id="ta_in_dmember"><![CDATA[TA在交友中心]]></item>
+					<item id="buylog_titile_1"><![CDATA[查找用户消费记录]]></item>
+					<item id="buylog_titile_2"><![CDATA[交友消费记录 (1.默认显示全部.2.消费记录的删除,会同步删除用户的操作,请谨慎操作!)]]></item>
+					<item id="user"><![CDATA[用户]]></item>
+					<item id="kind"><![CDATA[类型]]></item>
+					<item id="peer"><![CDATA[对方]]></item>
+					<item id="buy"><![CDATA[消费]]></item>
+					<item id="time"><![CDATA[时间]]></item>
+					<item id="other"><![CDATA[其他]]></item>
+					<item id="del"><![CDATA[删除]]></item>
+					<item id="to_flower"><![CDATA[赠送鲜花]]></item>
+					<item id="to_contact"><![CDATA[查看联系方式]]></item>
+					<item id="datacenter_title_1"><![CDATA[交友会员数据更新,选择满足条件的用户加入交友中心,全不选默认只去除被锁定用户. ]]></item>
+					<item id="list_avatarstatus"><![CDATA[已上传头像<b>(推荐)</b> (如过滤会员头像不正确,使用 checkavatar.php 来重置数据)]]></item>
+					<item id="list_qq"><![CDATA[已填写QQ<b>(推荐)</b>]]></item>
+					<item id="list_resideprovince"><![CDATA[已填写居住地<b>(推荐)</b>]]></item>
+					<item id="list_album_attachment"><![CDATA[已上传相册 或者 已在帖子内上传图片<b>(推荐)</b>]]></item>
+					<item id="list_album"><![CDATA[已上传相片]]></item>
+					<item id="list_attachment"><![CDATA[已在帖子内上传图片]]></item>
+					<item id="list_mobile"><![CDATA[已填写手机]]></item>
+					<item id="list_birthyear"><![CDATA[已填写年龄]]></item>
+					<item id="list_verify"><![CDATA[已通过身份认证<b style="color:red">(必须先在"设置"内绑定认证项)</b>]]></item>
+					<item id="list_area"><![CDATA[选择地区:]]></item>
+					<item id="list_usergroup"><![CDATA[按用户组更新:]]></item>
+					<item id="list_usergroup1"><![CDATA[系统用户组]]></item>
+					<item id="list_usergroup2"><![CDATA[普通用户组]]></item>
+					<item id="datacenter_btn_1"><![CDATA[[第一步].交友会员数据更新]]></item>
+					<item id="datacenter_btn_2"><![CDATA[[第二步].已归档的交友会员数据更新 [先执行第一步,再执行此操作]]]></item>
+					<item id="dmember_now"><![CDATA[目前521交友用户数]]></item>
+					<item id="bbs_member"><![CDATA[论坛主表用户数]]></item>
+					<item id="bbs_member_archive"><![CDATA[论坛归档用户数]]></item>
+					<item id="datacenter_tip1"><![CDATA[<p> <b >无任何选择更新:默认只过滤"已被锁定"账户</b></p></p><p> <b >如在插件的"基本设置"中开启了"显示论坛图片"过滤时需要同时勾选"已上传相册"和"已在帖子内上传图片</b></p></p>]]></item>
+					<item id="datacenter_title_2"><![CDATA[数据表完整性检查]]></item>
+					<item id="datacenter_btn_3"><![CDATA[数据表校验]]></item>
+					<item id="datacenter_title_3"><![CDATA[初始化交友中心扩展字段]]></item>
+					<item id="datacenter_btn_4"><![CDATA[初始化交友中心扩展字段]]></item>
+					<item id="profilesetting_title_1"><![CDATA[<h1>1. 交友中心扩展用户字段管理(仅521交友插件使用,与DZ系统不冲突)</h1><p> 如果没有数据,请在"交友插件"管理后台的"数据中心"- "<b>3.初始化交友中心扩展字段</b>"执行之后再进行操作.</p><p> 如果字段修改的错误了也可以执行<b>初始化,使字段恢复系统默认数值.</b></p>]]></item>
+					<item id="profilesetting_table_1"><![CDATA[ <tr>	<th style="width:140px;">字段名称</th><th style="display:none">是否可用</th><th style="display:none">是否必填</th><th style="display:none">是否可搜索</th><th style="display:none">表单元素类型</th><th>供用户选择的值<div>(选择)</div></th><th style="display:none">内容最大长度<div>(输入)</div></th><th style="width:110px;">字段单位 例:元<div>(留空不显示)</div></th></tr>]]></item>
+					<item id="yes"><![CDATA[是]]></item>
+					<item id="no"><![CDATA[否]]></item>
+					<item id="submit"><![CDATA[提交]]></item>
+					<item id="select"><![CDATA[选择]]></item>
+					<item id="input"><![CDATA[输入]]></item>
+					<item id="system"><![CDATA[系统]]></item>
+					<item id="admin_install"><![CDATA[
+======= 安装步骤 ========
+步骤一.
+1, 安装完毕后,进入应用 - 521交友中心 - 数据中心 - 更新交友数据
+
+步骤二.
+1, 进入 应用 - 521交友中心 - 设置 填写您网站的绑定域名,之后提交保存
+比如安装的论坛的域名是 http://www.discuzcms.com/ 那么填写在 
+521交友中心 7.x - 设置 - 参数设置 - 站点地址 的填写 http://www.discuzcms.com/ , 站点地址以 http:// 开头, / 结尾.
+
+步骤三.
+1, 进入  应用 - 521交友中心 - 3.数据中心 3. 初始化交友中心扩展资料
+2, 进入  应用 - 521交友中心 - 字段管理 , 点击提交
+
+步骤四.
+1, 下载 <a href='http://www.discuzcms.com/thread-170-1-1.html'>http://www.discuzcms.com/thread-170-1-1.html</a> 此帖子内的附件.[DIY导入]交友首页DIY.rar
+2, 解压之后进入交友插件首页,比如演示站是'http://www.discuzcms.com/jiaoyou.php'
+进入'DIY'模式,进入'高级模式',先'清空',之后导入此文件夹内的'index.xml'文件
+
+步骤五.
+恭喜您,如果您已经完成以上4步,交友中心已经安装完毕!
+感谢您的使用,我们会不断努力,做dsicuz最好的交友插件!
+
+======= 相关链接 ========
+#官网地址
+http://www.discuzcms.com/
+
+521交友中心 7.x 版本演示
+http://www.discuzcms.com/jiaoyou.php
+用户名 test 密码 test
+
+======= 521交友中心 ========
+官方主页:http://addon.discuz.com/?@dmember.plugin
+完整路径:source/plugin/dmember
+演示站点:http://www.discuzcms.com/
+客服QQ:904416539]]></item>
+					<item id="admin_help"><![CDATA[### 安装成功的第一件事 ###
+1. 更新  交友后台 - 数据中心 - 更新交友用户数据
+2. 设置  交友后台 - 设置 - 选择一个积分类型
+
+### 首页没有会员显示 ###
+1. 看一下 交友后台 - 数据中心 - 更新后的有效用户有多少
+2. 要在交友后台-推荐设置-里设置UID,UID可以在更新了会员数据之后从高级搜索里面找,### 查看UID ###
+3. 头部推荐无人员,头部推荐是要大于8个会员才会显示的,另:如果填写的推荐UID不显示,也许会有无效的UID,不是过滤之后的有效用户,建议从高级搜索里面查找用户.
+4. 头部推荐左边是空的,这个粉红色区块是DIY调用论坛帖子
+要在插件前台导入DIY,请查看 ### [安装前台DIY] ###
+				
+###=== 搜索的高级选项 ===##
+点击下拉条没有数据?
+比如'职业'这一项要在 论坛后台 - 用户 - 用户栏目 - 职业 编辑,
+类型:下拉菜单,内容:站长来填写,供用户选择
+选择为必填项
+
+#搜索条里的文字太长了
+修改 后台 - 全局 - 地区设置,把里面比较长的省名字 改短
+比如 宁夏回族自治区 改成 宁夏
+
+#样式修改:
+source/plugin/dmember/template/default/style/image/bj101111_2.gif		导航条
+source/plugin/dmember/template/default/style/image/bj18.gif			排行榜背景图
+source/plugin/dmember/template/default/style/icon/j_bj23.jpg			会员背景图片
+
+###===1. 如何升级和安装？===##
+安装步骤【必看文件】，按照此文件来安装插件。
+如果要升级
+### 【备份和升级必看】 ###
+1. 使用数据库管理软件 phpmyadmin 
+2. 或者使用 discuz ”论坛后台“ - ”站长“-”数据库“-”自定义备份“ 选择 
+pre_dmember_like			暗恋(5.x 6.x 7.0通用)
+pre_dmember_credit_log	积分消费(5.x 6.x 7.0通用)
+pre_dmember_view		最近来访(5.x 6.x 7.0通用)
+pre_dmember_profile		交友中心字段(6.5 - 7.0)
+这四个表
+6.5的备份四个,5.0和6.0备份三个
+pre_是数据表前缀，根据自己论坛的设置来操作
+先备份这四个表，升级交友插件成功后，再恢复这四个表的数据
+[先备份.再升级]
+
+###=== DIY模块模板.txt ===##
+DIY代码的使用方法:
+首先进入DIY模式
+1. 拖一个框架到页面上
+2. 拖动交友中心的'最新用户','排行榜','推荐用户'其中一个类型到刚才的框架内
+3. 配置好信息之后'提交'
+4. 点击模块'编辑',进入'模块模板'把  DIY模块模板.txt 里面的代码 放到此模块的 模块模板里.
+5. 保存此DIY即可
+
+#论坛升级到X2.5 以后 ,推荐设置不能保存,也都不显示了
+在 网站根目录 /config/config_golbal.php 最下边 ?>之前 加入
+// ---------------------------  CONFIG INPUT  --------------------------- //
+$_config['input']['compatible'] = 1;
+
+升级成功了到论坛发个帖子吧,类似这样的:
+http://www.discuz.net/thread-2616862-1-1.html
+http://www.discuz.net/thread-2956787-1-1.html
+谢谢支持!
+
+#会员的头像比例失调#
+/source/plugin/dmember/template/css/default/default.css
+116行 修改
+border: 1px solid #CCCCCC;
+    height: 120px;
+    margin-top: 15px;
+    padding: 2px;
+    width: 110px;
+}
+
+# 会员充值系统?
+会员充值是使用discuz内置的积分充值系统,可以在充值系统内选择支付宝或者财付通
+这些都是可以自定义的
+
+### 个人主页报错 ###
+1. Unknown column 'extcredits' in 'fiele list'
+在交友后台 - 设置 - 绑定消费积分 (选择一个消费的积分类型)
+
+### Table xxx.dmember_view ' doesn't exist
+要重新安装,
+
+### 出现 forum_attchment_127 ' doesn't exist
+这个错误 是在 交友插件 - 设置 - 论坛附件图片展示 - 选否
+
+### 部分信息问答 ###
+1. 排名机制:在线VIP > 在线普通会员 > 离线VIP > 离线普通会员
+2. 搜索年龄:默认年龄:设置0-99 即可屏蔽不填写年龄的用户,设置非0开头 限定年龄搜索
+
+### 样式文件修改 ###
+在 template/style.htm 里修改,使用火狐浏览器+火狐firebug插件 修改 style.htm 里的样式
+找到样式之后在这个文件里搜索并修改
+
+#最近来访 ??? 号
+修改 数据表 pre_dmember_view
+例如:gbk编码
+字段: username 
+字符集:gbk	校对:gbk_chinese_ci
+如果是utf-8编码 则
+字符集:utf8	校对:utf8_chinese_ci
+
+### [数据问题] ###
+1. 交友头像问题
+上传压缩包内的 checkavatar.php 到站点根目录,会自动回去ucenter的数据来重置用户头像
+2. 用户年龄问题,可以使用
+UPDATE pre_common_member_profile 
+SET birthyear='1990',birthmonth='1',birthday='1' 
+WHERE birthyear='0'
+命令有两种执行方法 : 
+1. 在您的数据库中运行
+2. 在论坛后台'站长'-'数据库'-'升级'中粘贴上面的命令
+因为很多用户资料不完整的原因,导致用户不能显示
+pre_common_member_profile  前缀自定义
+给予用户默认年龄
+
+以下提供一些默认数据命令,仅供有经验者使用.
+新手使用,请将 pre_common_member 备份
+[修改默认年龄]
+UPDATE pre_common_member_profile 
+SET birthyear='1990',birthmonth='1',birthday='1' 
+WHERE birthyear='0'
+
+[修改默认性别]
+UPDATE pre_common_member_profile 
+SET gender='1'
+WHERE gender='0'
+
+[修改默认情感状态]
+UPDATE pre_common_member_profile 
+SET affectivestatus='单身'
+WHERE affectivestatus =''
+
+UPDATE pre_common_member_profile 
+SET affectivestatus=(CASE ( SELECT FLOOR(RAND()+ RAND()) )
+WHEN '0' THEN '单身'
+WHEN '1' THEN '保密'
+ END
+)
+WHERE affectivestatus='恋爱'
+
+[修改交友目的]
+UPDATE pre_common_member_profile 
+SET lookingfor=(CASE ( SELECT FLOOR(RAND()+ RAND()+ RAND()) )
+WHEN '0' THEN '寻找伴侣'
+WHEN '1' THEN '寻找知己'
+WHEN '2' THEN '寻找朋友'
+ END
+)
+WHERE lookingfor=''
+
+[修改学历]
+UPDATE sh_common_member_profile 
+SET education=(CASE ( SELECT FLOOR(RAND()+ RAND()+ RAND()) )
+WHEN '0' THEN '本科'
+WHEN '1' THEN '专科'
+WHEN '2' THEN '硕士'
+ END
+)
+WHERE education=''
+
+[修改身高]
+UPDATE sh_common_member_profile 
+SET height=(CASE ( SELECT FLOOR(RAND()+ RAND()+ RAND()) )
+WHEN '0' THEN '162'
+WHEN '1' THEN '167'
+WHEN '2' THEN '164'
+ END
+)
+WHERE height='' AND gender = '1'
+
+[修改职业]
+UPDATE sh_common_member_profile 
+SET occupation=(CASE ( SELECT FLOOR(RAND()+ RAND()+ RAND()) )
+WHEN '0' THEN 'IT/网络'
+WHEN '1' THEN '商业/贸易'
+WHEN '2' THEN '金融/证券'
+ END
+)
+WHERE occupation=''
+
+[修改默认一级地区]
+UPDATE pre_common_member_profile 
+SET resideprovince='广东省',residecity='深圳市'
+WHERE resideprovince =''
+
+[修改默认二级地区]
+UPDATE sh_common_member_profile 
+SET residecity=(CASE ( SELECT FLOOR(RAND()+ RAND()+ RAND()) )
+WHEN '0' THEN '崇文区'
+WHEN '1' THEN '朝阳区'
+WHEN '2' THEN '丰台区'
+ END
+)
+WHERE resideprovince='北京市' AND residecity='朝阳区'
+
+在您的数据库中运行,这是因为很多用户资料不完整的原因,导致用户不能显示
+pre_common_member_profile  前缀自定义
+
+
+交友插件用户问答:http://www.discuzcms.com/thread-113-1-1.html
+
+官方主页:http://addon.discuz.com/?@dmember.plugin
+完整路径:source/plugin/dmember
+演示站点:http://www.discuzcms.com/
+客服QQ:904416539]]></item>
+					<item id="admin_yl"><![CDATA[
+1. 身份验证收费		推荐价位 : 10元/次
+功能位置 : 交友插件后台 - 设置  绑定认证代号 / 只显示身份验证用户	
+此功能就可以重点推荐一些用户, 精选用户100个左右, 也提高了交友中心进入的门槛, 增加交友中的会员质量
+也可以通过这些来展开认证盈利. 
+
+2. 交友中心推荐用户	推荐价位 : 10元/月
+功能位置 : 交友插件后台 - 推荐设置  头条推荐 / 诚信用户男 / 诚信用户女 / 交友大厅全局右下角推荐
+此功能可以让一些用户出现在以上的推荐位置内, 获得非常多的浏览次数, 增加会员的曝光度
+特别是交友大厅全局右下角推荐, 更是交友中心的黄金位置
+
+3. 交友中心VIP		推荐价位 : 30元包月 /100元终身
+功能位置 : 交友插件后台 - 设置 绑定VIP用户组
+VIP功能 : 交友中心VIP会员 '荣誉贵宾' 身份标示, 搜索结果优先展示, 免积分查看联系方式(可关闭)
+
+4. 鲜花与联系方式	推荐价位 : 10元 = 100金币
+功能位置 : 交友插件后台 - 设置 鲜花消费 / 查看联系方式消费
+鲜花赠送 : 1金币
+联系方式 : 10金币
+
+以以上价位分析一个案例 : 
+一个用户申请了身份验证10元, 办理了VIP30元或100元, 购买了10元金币, 使用了交友中心推荐10元. 
+整个流程一个用户就为网站最少创造60元 - 130元的收入, 并且鲜花和联系方式的收费还是持续性的投入. 
+
+521交友中心 全自动盈利使用技巧 : 
+1. 自动充值金币. 
+使用方法 : 设置论坛后台 - 运营 - 支付宝 开通及时付款功能, 开通之后, 设置每次1元等于多少金币. 
+会员即可使用支付宝为论坛的账户充值金币, 充值成功自动增加金币. 
+
+2. 自动充值VIP
+使用方式 : 当会员有了金币之后, 可以拿金币来购买VIP, 可以使用DSU_VIP这个用户组购买的插件, 也可以在discuz论坛设置
+进入论坛后台 - 用户 -用户组 - 自定用户组 - 添加一个新的用户组 'VIP' , 设置用户组为公共用户组, 并设置购买的积分
+比如 : 1天1金币, 最少购买30天, 当会员使用金币购买的时候, 即可马上开通VIP
+
+使用交友中心, 完全不用手工操作即可完成整个交友网站的流程, 一个人即可打理. 
+
+官方主页 : http://addon.discuz.com/?@dmember.plugin
+客服QQ : 904416539
+]]></item>
+				</item>
+				<item id="module">
+					<item id="login"><![CDATA[您需要在登录之后才能使用]]></item>
+					<item id="ilike_title"><![CDATA[我暗恋的人]]></item>
+					<item id="ilike_pm"><![CDATA[喜欢您!~ 快去看看吧 : ]]></item>
+					<item id="likeme_title"><![CDATA[暗恋我的人]]></item>
+					<item id="ztc_unfind"><![CDATA[没有找到这个用户,正在为您返回交友大厅]]></item>
+					<item id="member_title"><![CDATA[的个人信息]]></item>
+					<item id="succeed"><![CDATA[操作成功!]]></item>
+					<item id="fail"><![CDATA[操作失败!]]></item>
+					<item id="advanced_title"><![CDATA[高级搜索]]></item>
+					<item id="mustfill"><![CDATA[必填]]></item>
+					<item id="tip"><![CDATA[提示]]></item>
+					<item id="mustfillthis"><![CDATA[您以下的必填资料项]]></item>
+					<item id="click2fill_profile"><![CDATA[点击填写个人资料[请填写完整]]]></item>
+					<item id="click2fill_dmember_profile"><![CDATA[点击填写交友资料[请填写完整]]]></item>
+					<item id="in_dmember_profile"><![CDATA[您在交友中心资料 : </h2>交友中心资料 <b style='color:red'>[必填]</b><br>]]></item>
+					<item id="women_tongji"><![CDATA[<b>根据我们统计 : </b>完成个人资料和交友资料,您的交友<b style='color:red'>成功率提高至60%!</b>]]></item>
+					<item id="upload_you_ava"><![CDATA[您的个人头像 : </h2>用户头像 <b style='color:red'>[必须上传]</b><br>]]></item>
+					<item id="click2upload_you_ava"><![CDATA[点击上传您的个人头像]]></item>
+					<item id="discuz_diy"><![CDATA[<div class='cl' id='discuzcms_diy'><a href='http://www.discuzcms.com/'>discuz!cms</a><style>#discuzcms_diy{display:none}</style></div>]]></item>
+					<item id="women_tongji2"><![CDATA[<b>根据我们统计 : </b>完成个人资料并且上传真实头像之后,交友<b style='color:red'>成功率提高到95%!</b>,本站将会为您提供更多的展示机会,您也会变的非常受大家欢迎.]]></item>
+					<item id="wenxin_tishi"><![CDATA[<h1>交友中心温馨提示 : 完成以下信息,才能浏览用户信息 : </h1> <hr>]]></item>
+					<item id="wancheng_hou"><![CDATA[完成以上资料之后]]></item>
+					<item id="wancheng_fanhui"><![CDATA[步已完成] 点此返回浏览用户个人主页]]></item>
+					<item id="not_fill"><![CDATA[-未填写-]]></item>
+					<item id="not_found"><![CDATA[没有找到这个用户,正在为您返回交友大厅]]></item>
+					<item id="xiangnin_zengsong"><![CDATA[向您赠送了]]></item>
+					<item id="xianhua_kankan"><![CDATA[朵鲜花,快去看看吧]]></item>
+					<item id="liji_chakan"><![CDATA[<立即查看>]]></item>
+					<item id="username"><![CDATA[用户名]]></item>
+					<item id="realname"><![CDATA[真实姓名]]></item>
+					<item id="gender"><![CDATA[性别]]></item>
+					<item id="age"><![CDATA[年龄]]></item>
+					<item id="sui"><![CDATA[岁]]></item>
+					<item id="boy"><![CDATA[男]]></item>
+					<item id="girl"><![CDATA[女]]></item>
+					<item id="height"><![CDATA[身高]]></item>
+					<item id="cm"><![CDATA[厘米]]></item>
+					<item id="birthdate"><![CDATA[出生日期]]></item>
+					<item id="regin"><![CDATA[注册于]]></item>
+					<item id="lianxi"><![CDATA[联系方式]]></item>
+					<item id="mobile"><![CDATA[手机]]></item>
+					<item id="email"><![CDATA[邮箱]]></item>
+					<item id="telephone"><![CDATA[电话]]></item>
+					<item id="detail"><![CDATA[详细资料]]></item>
+					<item id="nationality"><![CDATA[国籍]]></item>
+					<item id="constellation"><![CDATA[星座]]></item>
+					<item id="bloodtype"><![CDATA[血型]]></item>
+					<item id="zodiac"><![CDATA[生肖]]></item>
+					<item id="interest"><![CDATA[兴趣爱好]]></item>
+					<item id="weight"><![CDATA[体重]]></item>
+					<item id="gongjin"><![CDATA[公斤]]></item>
+					<item id="affectivestatus"><![CDATA[情感状态]]></item>
+					<item id="lookingfor"><![CDATA[交友目的]]></item>
+					<item id="birthprovince"><![CDATA[出生地区]]></item>
+					<item id="resideprovince"><![CDATA[居住地区]]></item>
+					<item id="job"><![CDATA[工作情况]]></item>
+					<item id="company"><![CDATA[公司]]></item>
+					<item id="occupation"><![CDATA[职业]]></item>
+					<item id="position"><![CDATA[职位]]></item>
+					<item id="revenue"><![CDATA[年收入]]></item>
+					<item id="wanyishang"><![CDATA[万以上]]></item>
+					<item id="edu"><![CDATA[教育情况]]></item>
+					<item id="graduateschool"><![CDATA[毕业学校]]></item>
+					<item id="education"><![CDATA[学历]]></item>
+					<item id="bio"><![CDATA[自我介绍]]></item>
+					<item id="sightml"><![CDATA[BBS签名档]]></item>
+					<item id="download"><![CDATA[下载用户个人资料到计算机]]></item>
+					<item id="medals"><![CDATA[社区勋章]]></item>
+					<item id="lianai"><![CDATA[恋爱征婚]]></item>
+					<item id="i_hope"><![CDATA[我希望对方]]></item>
+					<item id="my_ziliao"><![CDATA[我的资料 : ]]></item>
+					<item id="dmember_interest"><![CDATA[兴趣爱好]]></item>
+					<item id="dmember_skill"><![CDATA[技能特长]]></item>
+					<item id="dmember_wantjoin"><![CDATA[愿意参与的活动]]></item>
+					<item id="comment_title"><![CDATA[我的留言板(只显示最新5条)]]></item>
+					<item id="submit"><![CDATA[提交]]></item>
+					<item id="banner"><![CDATA[ 交友首页展示<br> 搜索结果优先展示<br> 免积分查看联系方式<br>]]></item>
+					<item id="flower_rank"><![CDATA[鲜花排行榜]]></item>
+					<item id="anlian_rank"><![CDATA[暗恋排行榜]]></item>
+					<item id="re_flower"><![CDATA[收到鲜花]]></item>
+					<item id="zhaohu"><![CDATA[打个招呼]]></item>
+					<item id="duo"><![CDATA[朵]]></item>
+					<item id="xiaoxi"><![CDATA[发送消息]]></item>
+					<item id="flower"><![CDATA[鲜花]]></item>
+					<item id="anlian"><![CDATA[暗恋]]></item>
+					<item id="ren_anlian"><![CDATA[人暗恋]]></item>
+					<item id="del"><![CDATA[删除]]></item>
+					<item id="shuaige"><![CDATA[帅哥]]></item>
+					<item id="meinv"><![CDATA[美女]]></item>
+					<item id="from"><![CDATA[来自]]></item>
+					<item id="member_li_tip"><![CDATA[想和我做朋友吗?快快联系我.]]></item>
+					<item id="vip"><![CDATA[贵宾]]></item>
+					<item id="verify"><![CDATA[认证用户]]></item>
+					<item id="xiangxiziliao"><![CDATA[详细资料]]></item>
+					<item id="welcome"><![CDATA[欢迎登陆]]></item>
+					<item id="zhanghao"><![CDATA[帐号]]></item>
+					<item id="mima"><![CDATA[密码]]></item>
+					<item id="ls_cookietime"><![CDATA[下次自动登录]]></item>
+					<item id="btn_login"><![CDATA[登录]]></item>
+					<item id="btn_reg"><![CDATA[注册]]></item>
+					<item id="zhaohui_mima"><![CDATA[找回密码]]></item>
+					<item id="lijizhuce"><![CDATA[<li class='zc'>还不是会员?  <a href='member.php?mod=register'>立即注册</a></li>]]></item>
+					<item id="you"><![CDATA[有]]></item>
+					<item id="chongzhi"><![CDATA[充值]]></item>
+					<item id="chongzhi_bangzhu"><![CDATA[充值帮助]]></item>
+					<item id="vip_banli"><![CDATA[VIP办理]]></item>
+					<item id="jifen_buzu"><![CDATA[积分不足]]></item>
+					<item id="credit_log"><![CDATA[消费记录]]></item>
+					<item id="wo_anlian"><![CDATA[我暗恋的人]]></item>
+					<item id="anlian_wo"><![CDATA[暗恋我的人]]></item>
+					<item id="zhannei_xiaoxi"><![CDATA[站内消息]]></item>
+					<item id="zhannei_zhaohu"><![CDATA[招呼提醒]]></item>
+					<item id="kefu"><![CDATA[在线客服]]></item>
+					<item id="buxian"><![CDATA[不限]]></item>
+					<item id="diqu"><![CDATA[地区]]></item>
+					<item id="has_ava"><![CDATA[有照片]]></item>
+					<item id="more_search"><![CDATA[更多选项]]></item>
+					<item id="btn_search"><![CDATA[开始搜索]]></item>
+					<item id="advanced"><![CDATA[高级搜索]]></item>
+					<item id="close"><![CDATA[关闭]]></item>
+					<item id="liulan_tixing"><![CDATA[会员浏览提醒]]></item>
+					<item id="yonghu_tuijian"><![CDATA[本站优秀用户推荐]]></item>
+					<item id="zai_kan_ziliao"><![CDATA[正在看您的资料]]></item>
+					<item id="xiang_zuo_pengyou"><![CDATA[他很想和您做朋友]]></item>
+					<item id="duinin_ganxingqu"><![CDATA[她对您很感兴趣哟!]]></item>
+					<item id="ta_duinin_ganxingqu"><![CDATA[Ta对您很感兴趣哟!]]></item>
+					<item id="de_gerenzhuye"><![CDATA[的个人主页]]></item>
+					<item id="nin_kenneng_ganxingqu"><![CDATA[您可能对Ta很感兴趣哟!]]></item>
+					<item id="yuanfen_jianjian"><![CDATA[缘分就在瞬间,快加QQ联系吧]]></item>
+					<item id="chakan_ta_ziliao"><![CDATA[查看Ta的资料]]></item>
+					<item id="zhitongche"><![CDATA[社区直通车]]></item>
+					<item id="btn_search_1"><![CDATA[搜索]]></item>
+					<item id="zhitongche_tip"><![CDATA[输入社区用户名直达个人主页]]></item>
+					<item id="qing_shuru"><![CDATA[请输入]]></item>
+					<item id="chegxin_tuijian"><![CDATA[本站诚信用户推荐]]></item>
+					<item id="meinv_tuijian"><![CDATA[美女推荐]]></item>
+					<item id="shuaige_tuijian"><![CDATA[帅哥推荐]]></item>
+					<item id="shenqing_renzheng"><![CDATA[申请身份认证]]></item>
+					<item id="send_flower"><![CDATA[送鲜花]]></item>
+					<item id="space"><![CDATA[个人空间]]></item>
+					<item id="album"><![CDATA[个人相片]]></item>
+					<item id="online"><![CDATA[当前在线]]></item>
+					<item id="offline"><![CDATA[离线]]></item>
+					<item id="mem_uid"><![CDATA[会员编号]]></item>
+					<item id="vip2"><![CDATA[荣誉贵宾]]></item>
+					<item id="shipin_renzheng"><![CDATA[视频认证]]></item>
+					<item id="on_verify"><![CDATA[已认证用户]]></item>
+					<item id="not_verify"><![CDATA[未认证用户]]></item>
+					<item id="has_email"><![CDATA[有联系邮箱]]></item>
+					<item id="has_mobile"><![CDATA[有联系电话]]></item>
+					<item id="has_qq"><![CDATA[有QQ号码]]></item>
+					<item id="click_me_xiaoxi"><![CDATA[点击这里给我发消息]]></item>
+					<item id="xiang_zhiao_lianxi"><![CDATA[想知道TA的QQ号和联系电话? ]]></item>
+					<item id="click_view"><![CDATA[点击查看]]></item>
+					<item id="ruzhu"><![CDATA[已入住本站]]></item>
+					<item id="tian"><![CDATA[天]]></item>
+					<item id="more"><![CDATA[更多]]></item>
+					<item id="nm"><![CDATA[匿名]]></item>
+					<item id="zengsong"><![CDATA[赠送了]]></item>
+					<item id="xianhua_zhanwei"><![CDATA[鲜花占位]]></item>
+					<item id="nin_keneng_ganxingqu_deren"><![CDATA[您可能感兴趣的人]]></item>
+					<item id="zuijin_laifang"><![CDATA[最近来访]]></item>
+					<item id="ziji_shuru"><![CDATA[自己输入]]></item>
+					<item id="shi"><![CDATA[是]]></item>
+					<item id="wode_zhuye"><![CDATA[我的主页]]></item>
+					<item id="upload_ava"><![CDATA[上传头像]]></item>
+					<item id="upload_pic"><![CDATA[上传照片]]></item>
+					<item id="shenfen_renzheng"><![CDATA[身份认证]]></item>
+					<item id="fill_dmember"><![CDATA[完善交友资料]]></item>
+					<item id="jiaoyou_dating"><![CDATA[交友大厅]]></item>
+					<item id="jiaoyou_wall"><![CDATA[交友墙]]></item>
+					<item id="tansuo"><![CDATA[探索一下]]></item>
+					<item id="my_credit"><![CDATA[我的积分]]></item>
+					<item id="bbs_credit_log"><![CDATA[社区积分记录]]></item>
+					<item id="dmember_credit_log"><![CDATA[交友中心消费记录]]></item>
+					<item id="user"><![CDATA[用户]]></item>
+					<item id="kind"><![CDATA[类型]]></item>
+					<item id="peer"><![CDATA[对方]]></item>
+					<item id="buy"><![CDATA[消费]]></item>
+					<item id="time"><![CDATA[时间]]></item>
+					<item id="to_flower"><![CDATA[赠送鲜花]]></item>
+					<item id="to_contact"><![CDATA[查看联系方式]]></item>
+					<item id="gong_sousuodao"><![CDATA[共搜索到]]></item>
+					<item id="ren"><![CDATA[人]]></item>
+					<item id="fei_vip_and_guest"><![CDATA[非VIP会员和未登录用户只显示前]]></item>
+					<item id="meiye_xianshi"><![CDATA[每页显示]]></item>
+					<item id="yiyou"><![CDATA[已有]]></item>
+					<item id="ren_fangwen"><![CDATA[人次访问]]></item>
+					<item id="ge"><![CDATA[个]]></item>
+					<item id="zhannei_dongtai"><![CDATA[站内动态]]></item>
+					<item id="guanyu_wode"><![CDATA[关于我的]]></item>
+					<item id="chakan"><![CDATA[查看了]]></item>
+					<item id="zai"><![CDATA[在]]></item>
+					<item id="de"><![CDATA[的]]></item>
+					<item id="liuyanban_liuyan"><![CDATA[的留言板留了言]]></item>
+					<item id="geren_ziliao"><![CDATA[个人资料]]></item>
+					<item id="tishi_keyong"><![CDATA[提示:可用]]></item>
+					<item id="view"><![CDATA[查看]]></item>
+					<item id="lianxi_xuyao"><![CDATA[的联系方式需要]]></item>
+					<item id="vip_bukou"><![CDATA[VIP用户不扣]]></item>
+					<item id="yaosong"><![CDATA[要送]]></item>
+					<item id="sousuo_tiaojian"><![CDATA[搜索条件]]></item>
+					<item id="zhao_nvyou"><![CDATA[找女情人]]></item>
+					<item id="zhao_nanyou"><![CDATA[找男情人]]></item>
+					<item id="return_bbs"><![CDATA[返回社区]]></item>
+				</item>
+			</item>
+			<item id="installlang">
+				<item id="admin">
+				</item>
+				<item id="module">
+				</item>
+				<item id="function">
+				</item>
+			</item>
+		</item>
+		<item id="installfile"><![CDATA[install.php]]></item>
+		<item id="uninstallfile"><![CDATA[uninstall.php]]></item>
+		<item id="upgradefile"><![CDATA[upgrade.php]]></item>
+	</item>
+</root>
