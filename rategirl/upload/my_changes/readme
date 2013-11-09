@@ -1,3 +1,11 @@
 2013.10.12
 home.php - support buy from paypal. 100/300 package.
 ./template/default/home/spacecp_credit_base.htm -  added paypal "Buy now" button.
+
+2013.11.09
+./source/plugin/dmember/modules/my.inc.php
+- changed "op" from "all" to "my".
+./source/plugin/dmember/template/blue/my.htm
+- hide "全站动态"
+
+
