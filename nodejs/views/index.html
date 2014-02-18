@@ -1,0 +1,32 @@
+{% extends 'layout.html' %}
+
+{% block title %}首页 - 哎呀呀导航网{% endblock %}
+
+{% block head %}
+  {% parent %}
+  <link rel="stylesheet" href="/css/index.css">
+{% endblock %}
+
+{% block content %}
+
+<hr/>
+<div class="hotclick">
+    {% for item in items %}
+    <a href="javascript:jumpToMe('{{ item.id }}')">{{ item.name }}</a>
+    {% endfor %}
+</div>
+<hr/>
+
+{% for item in items %}
+<div class="c-nav c-{{ item.id }}">
+    <a href="javascript:void()">{{ item.name }}</a>
+</div>
+
+<div class="c-link">
+    {% for urlObj in item.urls %}
+    <a href="{{ urlObj.url }}">{{ urlObj.name }}</a>
+    {% endfor %}
+</div>
+{% endfor %}
+
+{% endblock %} <!-- content -->
