@@ -61,6 +61,13 @@ function getUsers(isTotal) {
 currentUser = getUsers();
 totalUser = getUsers(true); 
 
+//add routing
+var routing = require('./routing.js');
+var rules = routing.Rules();
+for (i in rules) {
+    app.use(rules[i].url, require(rules[i].controller));
+}
+
 app.get('/', function (req, res) {
   res.render('index', { items: items, currentUser: currentUser, totalUser: totalUser });
 });

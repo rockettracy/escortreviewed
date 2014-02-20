@@ -6,3 +6,12 @@ http://iconof.com/blog/how-to-install-setup-node-js-on-amazon-aws-ec2-complete-g
 running node.js in backround:
 [ec2-user@ip-172-31-8-54 nodejs]$ nohup node server.js &
 [1] 12037
+
+route
+http://stackoverflow.com/questions/4602212/organize-routes-in-node-js
+
+mvc:
+https://github.com/visionmedia/express/tree/master/examples/mvc
+
+good example: routing in node
+http://www.andy-williams.net/blog/2012/11/02/routing-with-node-js/
