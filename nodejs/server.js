@@ -19,58 +19,23 @@ swig.setDefaults({ cache: false });
 // NOTE: You should always cache templates in a production environment.
 // Don't leave both of these to `false` in production!
 
-siteConfig = iniParser.parseSync(__dirname + '/config/site.ini');
+app.get('/', function (req, res) {
+    var datalayer = require('./libs/dataLayer.js');
+    var urls = datalayer.getUrls(); 
+    var utils = require('./libs/Utils.js');
+    var currentU = utils.currentUser;
+    var totalU = utils.totalUser;
 
-items = [];
-for (item in siteConfig.items) {
-    obj = {};
-    obj.id = item;
-    obj.name = siteConfig.items[item]; 
-    obj.urls = [];
-
-    for (key in siteConfig[item]) {
-        tmp = siteConfig[item][key].split(',');
-        _obj = {};
-        _obj.name = tmp[0];
-        _obj.url = tmp[1];
-        obj.urls.push(_obj);
-    }
-
-    items.push(obj);
-}
-
-function isDaytime() {
-    var time = new Date();
-    var hour = time.getHours();
-
-    if(hour > 9 && hour < 23) return true;
-    return false;
-}
-
-function getUsers(isTotal) {
-    isTotal = (typeof isTotal == 'undefined') ? false : true;
-
-    if (isTotal) {
-        return Math.floor(Math.random() * 2000000) + Math.floor(new Date().getTime() / 360000);
-    } else {
-        factor = isDaytime() ? 2000 : 400; 
-        return Math.floor(Math.random() * factor) + 1;
-    }
-}
-
-currentUser = getUsers();
-totalUser = getUsers(true); 
+    res.render('index', { items: urls, currentUser: currentU, totalUser: totalU });
+});
 
 //add routing
 var routing = require('./routing.js');
 var rules = routing.Rules();
+console.log(rules);
 for (i in rules) {
     app.use(rules[i].url, require(rules[i].controller));
 }
-
-app.get('/', function (req, res) {
-  res.render('index', { items: items, currentUser: currentUser, totalUser: totalUser });
-});
 
 app.listen(3000);
 console.log('Application Started on http://localhost:3000/');
