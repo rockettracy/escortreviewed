@@ -1,7 +1,6 @@
 var app = require('express')(),
   swig = require('swig'),
-  express = require('express'),
-  iniParser = require('iniparser');
+  express = require('express');
 
 // This is where all the magic happens!
 app.engine('html', swig.renderFile);
@@ -32,7 +31,6 @@ app.get('/', function (req, res) {
 //add routing
 var routing = require('./routing.js');
 var rules = routing.Rules();
-console.log(rules);
 for (i in rules) {
     app.use(rules[i].url, require(rules[i].controller));
 }

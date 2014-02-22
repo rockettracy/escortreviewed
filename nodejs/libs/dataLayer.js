@@ -1,6 +1,18 @@
 module.exports = function() {
     var dataParsing = function() {
-        var iniParser = require('iniparser');
+        var iniParser = require('iniparser'),
+            mysql = require('mysql');
+        
+        var conn = mysql.createConnection({
+            host: 'localhost',
+            user: 'kelin.liu',
+            password: '',
+            database: 'test'
+        });
+
+        conn.query('select * from tags', function(err, rows) {
+console.log(rows); });
+
         siteConfig = iniParser.parseSync(__dirname + '/../config/site.ini');
 
         items = [];
