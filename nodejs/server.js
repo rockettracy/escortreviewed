@@ -10,6 +10,9 @@ app.set('views', __dirname + '/views');
 
 app.use(express.static(__dirname + '/static/v1'));
 
+//for form params
+app.use(express.bodyParser());
+
 // Swig will cache templates for you, but you can disable
 // that and use Express's caching instead, if you like:
 app.set('view cache', true);
@@ -19,18 +22,13 @@ swig.setDefaults({ cache: false });
 // Don't leave both of these to `false` in production!
 
 app.get('/', function (req, res) {
-    var datalayer = require('./libs/dataLayer.js');
-    var urls = datalayer.getUrls(); 
-    var utils = require('./libs/Utils.js');
-    var currentU = utils.currentUser;
-    var totalU = utils.totalUser;
-
-    res.render('index', { items: urls, currentUser: currentU, totalUser: totalU });
+    res.render('index');
 });
 
 //add routing
 var routing = require('./routing.js');
 var rules = routing.Rules();
+console.log(rules);
 for (i in rules) {
     app.use(rules[i].url, require(rules[i].controller));
 }

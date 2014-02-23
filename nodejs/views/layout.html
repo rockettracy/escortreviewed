@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>{% block title %}哎呀呀导航网{% endblock %}</title>
+  <title>{% block title %}小i网 - 哎呀呀社交机器人{% endblock %}</title>
 
   {% block meta %}
   <meta name="description" content="北美华人第一导航网.崭新的一天,从这里开始">
@@ -14,37 +14,40 @@
 
 	<!-- JavaScript codes -->
 	<script src="/js/jquery-1.7.1.min.js" type="text/javascript"></script>
-  <script src="/js/jquery.scrollTo-1.4.3-min.js" type="text/javascript"></script>
 	<script src="/js/site.js" type="text/javascript"></script>
-
-  <script>
-  function jumpToMe(id) {
-      el = $(".c-"+id);
-      $(document).scrollTop(el.offset().top);
-  }
-  </script>
 
   {% block head %}
   {% endblock %}
 </head>
 <body>
     {% block top %}
-    <div class="top">
-        <p>北美华人社区第一导航网 － <a href="http://www.iyaya.ca"><span class="c-link-home">哎呀呀导航网<span></a>。崭新的一天，从这里开始。</p>
+    <div class='c-top'>
+      <div class="c-top-contain">
+        <div class="c-logo">
+            <a href="/index">小i网</a>
+        </div>
+        <div class="c-navi">
+            <a href="/about" class="c-navi-item">关于我们</a>
+            <a href="/help" class="c-navi-item">帮助</a>
+        </div>
+        <div class="c-login">
+            <a href="/login" class="btn btn-default c-login-item">登陆</a>
+            <a href="/signup" class="btn btn-primary c-login-item">注册</a>
+        </div>
+        <div class="c-clear"></div>
+      </div>
     </div>
     {% endblock %}
 
-    {% block content %}{% endblock %}
+    {% block content %}
+    {% endblock %}
 
     {% block bottom %}
-    <div class="bottom">
-        <p>{{ totalUser }}+人次点击过该导航网站,目前{{ currentUser }}人正在使用中.</p>
-    </div>
     {% endblock %}
 
     {% block footer %}
-    <div class="footer">
-        <p>© 2001 - 2014 iyaya.ca 哎呀呀导航网版权所有.</p> 
+    <div class="c-footer">
+        <p>© 2001 - 2014 iyaya.ca 哎呀呀社交机器人(小i网)版权所有.</p> 
     </div>
     {% endblock %}
 </body>
