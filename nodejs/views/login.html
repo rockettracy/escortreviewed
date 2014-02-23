@@ -1,0 +1,27 @@
+{% extends 'layout.html' %}
+
+{% block title %}小i网 - 登陆{% endblock %}
+
+{% block head %}
+  {% parent %}
+  <link rel="stylesheet" href="/css/login.css">
+{% endblock %}
+
+{% block content %}
+<div class="c-login">
+    <form name="login" action="/login" method="post" class="c-login-form">
+        <div class="c-login-item">
+            <div class="c-login-label">用户名</div>
+            <div><input name="username" type="text" class="c-login-input" value=""></div>
+        </div>
+        <div class="c-login-item">
+            <div class="c-login-password">密码</div>
+            <div><input name="password" type="text" class="c-login-input" value=""></div>
+        </div>
+        <div class="c-login-item">
+            <div class="c-login-label"></div>
+            <div><input type="submit" class="btn btn-primary c-login-submit" value="登陆"></div>
+        </div>
+    </form>
+</div>
+{% endblock %} <!-- content -->

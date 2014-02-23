@@ -46,7 +46,7 @@ body {
     text-decoration: none;
 }
 
-.c-logo, .c-navi, .c-login {
+.c-logo, .c-navi, .c-accountmanager {
     display: inline-block;
 }
 
@@ -57,7 +57,7 @@ body {
 .c-navi {
     margin-left: 80px;
 }
-.c-login {
+.c-accountmanager {
     margin-left: 80px;
 }
 
@@ -91,7 +91,7 @@ body {
 .btn-primary {
   background-color: #0199d9;
 }
-.c-login-item{
+.c-accountmanager-item{
   margin: auto 5px;
 }
 

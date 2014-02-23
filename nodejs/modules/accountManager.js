@@ -16,8 +16,22 @@ module.exports = function() {
         return true;
     };
 
+    var doLogin = function(req, res) {
+        var post = {
+            username: req.body.username,
+            password: req.body.password
+        };
+
+        conn.query('select * from iyy_member where ?', post, function(err, result){
+            if (err) throw err;
+        });
+
+        return true;
+    };
+
     return {
-        signup: doSignup
+        signup: doSignup,
+        login: doLogin
     };
 }();
 
