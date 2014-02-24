@@ -1,0 +1,4 @@
+1. install Mongodb.
+2. run Mongodb daemon.
+3. npm install.
+4. test.
