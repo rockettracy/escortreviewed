@@ -1,3 +1,5 @@
+var everyauth = require('everyauth');
+
 var app = require('express')(),
   swig = require('swig'),
   express = require('express');
@@ -12,6 +14,10 @@ app.use(express.static(__dirname + '/static/v1'));
 
 //for form params
 app.use(express.bodyParser());
+//authen/author
+app.use(express.cookieParser('mr ripley'));
+app.use(express.session());
+app.use(everyauth.middleware(app));
 
 // Swig will cache templates for you, but you can disable
 // that and use Express's caching instead, if you like:

@@ -9,11 +9,21 @@ module.exports = function() {
             email: req.body.email
         };
 
-        conn.query('insert into iyy_member set ?', post, function(err, result){
-            if (err) throw err;
+        function isError(data) {
+            rs = data ? false : true;
+        }
+
+        function doQuery(sql, cbf) {
+            conn.query(sql, post, function(err, result){
+                cbf(err);
+            });
+        }
+
+        doQuery('insert into iyy_member set ?', function(error) {
+            isError(error);
         });
 
-        return true;
+        return rs;
     };
 
     var doLogin = function(req, res) {
