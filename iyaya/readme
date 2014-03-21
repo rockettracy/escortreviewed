@@ -2,3 +2,13 @@
 2. run Mongodb daemon.
 3. npm install.
 4. test.
+
+instruction:
+how to authenticate
+http://mherman.org/blog/2013/11/11/user-authentication-with-passport-dot-js/#.Uwq9lfRdWk_
+
+how to save info in mangodb
+http://blog.ijasoneverett.com/2013/03/a-sample-app-with-node-js-express-and-mongodb-part-1/
+
+run mongodb:
+mongod --dbpath ~/mongodb

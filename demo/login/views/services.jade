@@ -1,0 +1,8 @@
+extends layout
+
+block content
+  if (user)
+    You are currently logged in as #{user.username}
+  else
+    div
+      h2 signup now
