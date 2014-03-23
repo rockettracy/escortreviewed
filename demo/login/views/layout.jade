@@ -1,7 +1,7 @@
 doctype html
 html
   head
-    title 365 Mate - Life is so good!
+    title iRobot - Life is good!
     link(rel='stylesheet', href='/css/bootstrap.css')
     link(rel='stylesheet', href='/css/custom.css')
     block scripts
@@ -11,8 +11,8 @@ html
     .navbar.navbar-inverse.navbar-fixed-top
       .navbar-inner
         .container
-          a.brand(href="/") 365 Mate
-          a.intronav(href="/services") Our Services
+          a.brand(href="/") iRobot
+          a.intronav(href="/services") Free Services
           a.intronav(href="/contactus") Contact Us
           ul.nav
             if (typeof(user) == 'undefined')
@@ -28,3 +28,5 @@ html
 
     .container
       block content
+    .footer
+      p © 2001 - 2014 iyaya Inc.

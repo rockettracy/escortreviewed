@@ -1,0 +1,19 @@
+.premier-services {
+    text-align: center;
+    list-style-type: none;
+}
+
+.service-block {
+    display: inline-block;
+    width: 150px;
+    margin: 30px;
+    text-align: center;
+}
+
+.service-block a {
+    text-decoration: none;
+}
+
+.introduction {
+    color: grey;
+}

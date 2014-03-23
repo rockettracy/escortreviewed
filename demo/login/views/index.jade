@@ -1,5 +1,31 @@
 extends layout
 
 block content
+  link(rel='stylesheet', href='/css/index.css')
+
   if (user)
-    You are currently logged in as #{user.username}
+    p You are currently logged in as #{user.username}
+    p You already subsribed the following services:
+  else
+    .introduction
+      h2 Welcome to iRobot.
+      h3 iRobot is your personal asisstant, in whole 365 days. It will reminder you useful info based on your subscription. No spam. 
+      h3 You can select to receive these reminder by email or message.
+    ul.premier-services
+      li.service-block: a(href="/traffic")
+        img(src="/img/traffic.gif")
+        .s-desc
+          span.s-name Traffic service
+      li.service-block: a(href="/food")
+        img(src="/img/traffic.gif")
+        .s-desc
+          span.s-name Food service
+      li.service-block: a(href="/food")
+        img(src="/img/traffic.gif")
+        .s-desc
+          span.s-name Food service
+      li.service-block: a(href="/food")
+        img(src="/img/traffic.gif")
+        .s-desc
+          span.s-name Food service
+
