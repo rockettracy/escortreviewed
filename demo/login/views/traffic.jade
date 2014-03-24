@@ -1,0 +1,21 @@
+extends layout
+
+block content
+  h2 Traffic info
+  h3 Set your commnute addresses and time, you will be remindered if any slow traffic today.
+
+  form(action="/traffic",method="post")
+    div.hidden
+      label Serice type
+      input(type="text",name="service_type", value="traffic")
+
+    div
+      label Home
+      input(type="text",name="start_addr")
+
+    div
+      label Office address
+      input(type="text",name="end_addr")
+
+    div
+      input(type="submit",value="Subscribe")

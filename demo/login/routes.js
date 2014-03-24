@@ -1,4 +1,5 @@
 var passport = require('passport'),
+    Traffic = require('./models/traffic'),
     Account = require('./models/account');
 
 module.exports = function (app) {
@@ -25,6 +26,18 @@ module.exports = function (app) {
                 res.redirect('/services');
             });
         });
+    });
+
+    app.get('/traffic', function(req, res) {
+        res.render('traffic', { user : req.user });
+    });
+
+    app.post('/traffic', function(req, res) {
+        var obj = new Traffic({user: req.user, start_addr: req.body.start_addr, end_addr: req.body.end_addr});
+        if (!obj.logined()) res.redirect('/register');
+        else {
+          res.redirect('/');
+        }
     });
 
     app.get('/login', function(req, res) {
