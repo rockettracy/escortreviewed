@@ -8,6 +8,10 @@ module.exports = function (app) {
         res.render('index', { user : req.user });
     });
 
+    app.get('/noaccess', function (req, res) {
+        res.render('noaccess', {});
+    });
+
     app.get('/services', function (req, res) {
         res.render('services', { user : req.user });
     });
@@ -29,15 +33,15 @@ module.exports = function (app) {
     });
 
     app.get('/traffic', function(req, res) {
-        res.render('traffic', { user : req.user });
+        console.log(req.user);
+        if (typeof req.user == 'undefined') res.redirect('/noaccess');
+        res.render('traffic', {});
     });
 
     app.post('/traffic', function(req, res) {
+        if (typeof req.user == 'undefined') res.redirect('/noaccess');
         var obj = new Traffic({user: req.user, start_addr: req.body.start_addr, end_addr: req.body.end_addr});
-        if (!obj.logined()) res.redirect('/register');
-        else {
-          res.redirect('/');
-        }
+        res.redirect('/');
     });
 
     app.get('/login', function(req, res) {
@@ -54,6 +58,6 @@ module.exports = function (app) {
     });
 
     app.get('/contactus', function(req, res) {
-        res.render('contactus', { user : req.user });
+        res.render('contactus', {});
     });
 };
