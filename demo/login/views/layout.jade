@@ -1,7 +1,7 @@
 doctype html
 html
   head
-    title 5KM - Know the people in 5km!
+    title 5KM - Know what happened in your 5km!
     link(rel='stylesheet', href='/css/bootstrap.css')
     link(rel='stylesheet', href='/css/custom.css')
     block scripts
@@ -11,9 +11,8 @@ html
     .navbar.navbar-inverse.navbar-fixed-top
       .navbar-inner
         .container
-          a.brand(href="/") 5KM
-          a.intronav(href="/services") Free Services
-          a.intronav(href="/contactus") Contact Us
+          a(href="/")
+            img.logo(src="/img/logo.jpeg")
           ul.nav
             if (typeof(user) == 'undefined')
               li
@@ -29,4 +28,16 @@ html
     .container
       block content
     .footer
-      p © 2001 - 2014 5km.ca Inc.
+      ul.nav
+        li
+          a(href="/about") About
+        li
+          a(href="/help") Help
+        li
+          a(href="/terms") Terms
+        li
+          a(href="/privacy") Privacy
+        li
+          a(href="/media") Media
+        li
+          span.copyright © 2014 5km.ca Inc.

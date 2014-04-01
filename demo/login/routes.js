@@ -1,10 +1,15 @@
 var passport = require('passport'),
+    geoip = require('geoip-lite'),
     Traffic = require('./models/traffic'),
     Account = require('./models/account');
 
 module.exports = function (app) {
     
     app.get('/', function (req, res) {
+        var ip = "207.97.227.239";
+        var geo = geoip.lookup(ip);
+        console.log(req.connection.remoteAddress);
+        console.log(geo);
         res.render('index', { user : req.user });
     });
 

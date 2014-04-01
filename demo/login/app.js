@@ -1,6 +1,7 @@
 var path = require('path'),
     express = require('express'),
     http = require('http'),
+    geoip = require('geoip-lite'),
     mongoose = require('mongoose'),
     passport = require('passport'),
     LocalStrategy = require('passport-local').Strategy;

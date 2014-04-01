@@ -7,25 +7,17 @@ block content
     p You are currently logged in as #{user.username}
     p You already subsribed the following services:
   else
-    .introduction
-      h2 Welcome to 5km community.
-      h3 Want to meet nearby friends? Want to ask help from the people in 5km?
-      h3 Why not try 5km service? After becoming a member of 5km, you can do the following:
-    ul.premier-services
-      li.service-block: a(href="/traffic")
-        img(src="/img/traffic.gif")
-        .s-desc
-          span.s-name Broadcast message
-      li.service-block: a(href="/food")
-        img(src="/img/traffic.gif")
-        .s-desc
-          span.s-name Find nearby experts
-      li.service-block: a(href="/food")
-        img(src="/img/traffic.gif")
-        .s-desc
-          span.s-name Car pool
-      li.service-block: a(href="/food")
-        img(src="/img/traffic.gif")
-        .s-desc
-          span.s-name Meet nearby friends
+    .intro
+      span.tagline Welcome to 
+      span.tagline.important Your
+      span.tagline  5 KM Zone.
+      p.explain It is fast and free to get started. 
+      p.explain You can see others' posts in your 5 km radius. Out of range, their posts won't show up again.
+    .main-content
+      .left-content
+        p.content-desc Recent posts
+        hr.line
+      .right-content
+        p.content-desc Meet people @5 KM
+        hr.line
 

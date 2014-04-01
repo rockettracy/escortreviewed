@@ -14,6 +14,37 @@
     text-decoration: none;
 }
 
-.introduction {
+.intro {
     color: grey;
+    margin: 20px auto;
+}
+
+.tagline {
+    font-size: 30px;
+}
+
+.tagline.important {
+    font-weight: bold;
+    font-family: fantasy;
+}
+
+.explain {
+    font-size: 20px;
+    margin: 10px auto;
+}
+
+.left-content {
+    width: 48%;
+    display: inline-block;
+}
+
+.content-desc {
+    font-size: 28px;
+    color: grey;
+}
+
+.right-content {
+    float: right;
+    width: 45%;
+    display: inline-block;
 }
