@@ -38,6 +38,11 @@
     display: inline-block;
 }
 
+.left-content .post {
+    color: rgba(49, 145, 221, 0.91);
+    margin: 4px auto;
+}
+
 .content-desc {
     font-size: 28px;
     color: grey;
@@ -47,4 +52,20 @@
     float: right;
     width: 45%;
     display: inline-block;
+}
+
+hr.line {
+    margin-bottom: 5px;
+}
+
+.users .people {
+    width: 28%;
+    text-align: center;
+    display: inline-block;
+    margin: 10px;
+}
+
+.people .name {
+    margin-top: 5px;
+    color: rgba(49, 145, 221, 0.91);
 }

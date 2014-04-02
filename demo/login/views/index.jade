@@ -2,6 +2,7 @@ extends layout
 
 block content
   link(rel='stylesheet', href='/css/index.css')
+  script(src='/js/index.js')
 
   if (user)
     p You are currently logged in as #{user.username}
@@ -17,7 +18,38 @@ block content
       .left-content
         p.content-desc Recent posts
         hr.line
+        .posts
+          .post @monica: Time to lunch
+          .post @yahoooo: why not have a vacation?
+          .post @tracy: 愚人节
+          .post @mike: Too much delicious food at Pickle...
+          .post @nobody: somebody is online?
+          .post @wuhan: do too much work today. tired!!!
+          .post @jack: Good night. everyone.
+          .post @xxxx: it doesn't make sense. nobody is here now***
+          .post @maybe: hope have a trip to European.
+          .post @sina: see latest posts.
       .right-content
         p.content-desc Meet people @5 KM
         hr.line
+        .users
+          .people
+            img(src="/img/man.jpg")
+            .name Monica
+          .people
+            img(src="/img/man.jpg")
+            .name Yahoooo
+          .people
+            img(src="/img/man.jpg")
+            .name Mike
+          .people
+            img(src="/img/girl.jpg")
+            .name Monica
+          .people
+            img(src="/img/girl.jpg")
+            .name Yahoooo
+          .people
+            img(src="/img/girl.jpg")
+            .name Mike
+
 
