@@ -80,8 +80,10 @@ else
   cd "$SOURCE_PATH/rategirl/upload"
 fi
 
-if [ "$DEPLOY_PRODUCT" != "search" ];then
+sudo rm -rf "$TARGET_PATH/*"
 sudo cp -r * "$TARGET_PATH/" 
+
+if [ "$DEPLOY_PRODUCT" != "search" ];then
 sudo chmod -R 777 "$TARGET_PATH/config"
 sudo chmod -R 777 "$TARGET_PATH/data"
 sudo chmod -R 777 "$TARGET_PATH/uc_client"
