@@ -1,0 +1,4 @@
+serviceprovider:
+  Silex\Provider\TwigServiceProvider:
+    twig.path: /Users/kelinliu/work/dev/out/projects/escortreviewed/search/views
+  SearchTime\ServiceProvider\HelloServiceProvider:

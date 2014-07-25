@@ -1,11 +1,13 @@
 <?php
-require_once __DIR__.'/../vendor/autoload.php';
+require_once __DIR__.'/vendor/autoload.php';
 use Symfony\Component\Yaml\Parser;
 
 // ---------------- only for php54 embedded web server to serve static files
-$filename = __DIR__.preg_replace('#(\?.*)$#', '', $_SERVER['REQUEST_URI']);
-if (php_sapi_name() === 'cli-server' && is_file($filename)) {
-    return false;
+if (getenv('SEARCH_DEBUG')) {
+    $filename = __DIR__.preg_replace('#(\?.*)$#', '', $_SERVER['REQUEST_URI']);
+    if (php_sapi_name() === 'cli-server' && is_file($filename)) {
+        return false;
+    }
 }
 
 $app = new Silex\Application();
