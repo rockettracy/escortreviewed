@@ -1,7 +1,7 @@
 #!/bin/bash
 
 function usage {
-  echo "./deploy.sh [-h] -e <dev|prod> -p <escort|baobaowiki|rategirl>"
+  echo "./deploy.sh [-h] -e <dev|prod> -p <escort|baobaowiki|rategirl|search>"
   exit 0
 }
 
@@ -74,9 +74,13 @@ if [ "$DEPLOY_PRODUCT" == "escort" ];then
   cd "$SOURCE_PATH/bbs15eng/upload"
 elif [ "$DEPLOY_PRODUCT" == "baobaowiki" ];then
   cd "$SOURCE_PATH/baobaowiki/upload"
+elif [ "$DEPLOY_PRODUCT" == "search" ];then
+  cd "$SOURCE_PATH/search"
 else
   cd "$SOURCE_PATH/rategirl/upload"
 fi
+
+if [ "$DEPLOY_PRODUCT" != "search" ];then
 sudo cp -r * "$TARGET_PATH/" 
 sudo chmod -R 777 "$TARGET_PATH/config"
 sudo chmod -R 777 "$TARGET_PATH/data"
@@ -84,6 +88,8 @@ sudo chmod -R 777 "$TARGET_PATH/uc_client"
 sudo chmod -R 777 "$TARGET_PATH/uc_server"
 sudo chmod -R 777 "$TARGET_PATH/source/plugin"
 sudo chmod -R 777 "$TARGET_PATH/template"
+fi
+
 cd "$SOURCE_PATH"
 
 echo "start Apache..."
