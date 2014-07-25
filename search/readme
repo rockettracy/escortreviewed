@@ -1,0 +1,3 @@
+**** instant search (time order) *******
+1. test by php54:
+php -S localhost:8080 -t web web/index.php

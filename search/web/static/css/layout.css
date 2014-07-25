@@ -1,0 +1,19 @@
+.footer {
+    position:absolute;
+    bottom:0;
+    background:#f2f2f2;
+    border-top:1px solid #e4e4e4;
+    width: 100%;
+    padding: 15px 0;
+}
+.footer-links {
+    width: 45%;
+    float: right;
+}
+.footer-links a{
+    text-decoration: none;
+}
+.footer-link {
+    padding: 15px;
+    color: #666;
+}

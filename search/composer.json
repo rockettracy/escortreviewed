@@ -1,0 +1,11 @@
+{
+    "require": {
+        "silex/silex": "~1.1",
+        "symfony/yaml": "~2.3",
+        "twig/twig": ">=1.8,<2.0-dev"
+    },
+    "autoload": {
+        "psr-0": { "SearchTime" : "web/main/" },
+        "classmap": [ "web/main/"]
+    }
+}
