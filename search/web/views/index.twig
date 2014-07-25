@@ -2,6 +2,7 @@
 
 {% block static %}
     <link rel="stylesheet" href="./static/css/index.css">
+    <script type="text/javascript" src="./static/js/index.js" ></script>
 {% endblock %}
 
 {% block content %}
@@ -10,12 +11,25 @@
             <div class="pure-u-1-6"></div>
 
             <div class="pure-u-2-3">
-                <form action="/search" method="GET" class="pure-form pure-form-stacked">
-                    <fieldset>
-                        <input id="text_input" type="text" placeholder="">
-                        <button type="submit" class="pure-button submit-button">Search latest result in 2 hours</button>
-                    </fieldset>
-                </form>
+                <p class="pad-left-nm">
+                    <span class="key-feature font-large">Instant</span><span class="key-feature-desc grey"> - updated in 24 hours,</span>
+                    <span class="key-feature font-large"> Simple</span><span class="key-feature-desc grey"> - no login,</span>
+                    <span class="key-feature font-large"> Security</span><span class="key-feature-desc grey"> - no tracking.</span>
+                    <span class="font-sm grey pad-left-nm">Extreme google search engineer for you!</span>
+                </p>
+                <script>
+                    (function() {
+                        var cx = '007152500187517393596:a5pl-f__dfo';
+                        var gcse = document.createElement('script');
+                        gcse.type = 'text/javascript';
+                        gcse.async = true;
+                        gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+                                '//www.google.com/cse/cse.js?cx=' + cx;
+                        var s = document.getElementsByTagName('script')[0];
+                        s.parentNode.insertBefore(gcse, s);
+                    })();
+                </script>
+                <gcse:search></gcse:search>
             </div>
 
             <div class="pure-u-1-6"></div>

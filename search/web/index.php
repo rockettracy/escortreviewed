@@ -30,6 +30,11 @@ $app->get('/about', function() use($app) {
         'name' => $app['hello']('aaaaa')
     ));
 });
+$app->get('/contactus', function() use($app) {
+    return $app['twig']->render('contactus.twig', array(
+        'name' => $app['hello']('aaaaa')
+    ));
+});
 
 
 
