@@ -1,3 +1,11 @@
 **** instant search (time order) *******
 1. test by php54:
 php -S localhost:8080 -t web web/index.php
+
+2. can't access /about, /contactus etc
+1) in /etc/httpd/conf/httpd.conf, 
+Apache default config -> " AllowOverride All"
+2) In .htaccess, 
+<IfModule mod_rewrite.c>
+FallbackResource /mysite/index.php
+</IfModule>
