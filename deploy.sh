@@ -84,12 +84,14 @@ sudo rm -rf "$TARGET_PATH/*"
 sudo cp -r * "$TARGET_PATH/" 
 
 if [ "$DEPLOY_PRODUCT" != "search" ];then
-sudo chmod -R 777 "$TARGET_PATH/config"
-sudo chmod -R 777 "$TARGET_PATH/data"
-sudo chmod -R 777 "$TARGET_PATH/uc_client"
-sudo chmod -R 777 "$TARGET_PATH/uc_server"
-sudo chmod -R 777 "$TARGET_PATH/source/plugin"
-sudo chmod -R 777 "$TARGET_PATH/template"
+  sudo chmod -R 777 "$TARGET_PATH/config"
+  sudo chmod -R 777 "$TARGET_PATH/data"
+  sudo chmod -R 777 "$TARGET_PATH/uc_client"
+  sudo chmod -R 777 "$TARGET_PATH/uc_server"
+  sudo chmod -R 777 "$TARGET_PATH/source/plugin"
+  sudo chmod -R 777 "$TARGET_PATH/template"
+else
+  sudo cp htaccess "$TARGET_PATH/.htaccess"
 fi
 
 cd "$SOURCE_PATH"
