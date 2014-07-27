@@ -1,6 +1,8 @@
 **** instant search (time order) *******
+0. http://www.safe-find.com/
+
 1. test by php54:
-php -S localhost:8080 -t web web/index.php
+php -S localhost:8080 -t ./ index.php
 
 2. can't access /about, /contactus etc
 1) in /etc/httpd/conf/httpd.conf, 

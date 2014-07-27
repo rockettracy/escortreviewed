@@ -45,6 +45,11 @@ $app->get('/contactus', function() use($app) {
         'name' => $app['hello']('aaaaa')
     ));
 });
+$app->get('/privacy', function() use($app) {
+    return $app['twig']->render('privacy.twig', array(
+        'name' => $app['hello']('aaaaa')
+    ));
+});
 
 
 
