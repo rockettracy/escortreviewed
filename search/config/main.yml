@@ -2,3 +2,4 @@ serviceprovider:
   Silex\Provider\TwigServiceProvider:
     twig.path: /var/www/html/views
   SearchTime\ServiceProvider\HelloServiceProvider:
+  SearchTime\ServiceProvider\TrendServiceProvider:

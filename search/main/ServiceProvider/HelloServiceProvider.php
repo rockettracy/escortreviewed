@@ -8,7 +8,7 @@ class HelloServiceProvider implements ServiceProviderInterface
 {
     public function register(Application $app)
     {
-        $app['hello'] = $app->protect(function ($name) use ($app) {
+        $app['xgoogle.hello'] = $app->protect(function ($name) use ($app) {
             return 'Hello ' . $name;
         });
     }

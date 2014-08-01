@@ -11,3 +11,10 @@ Apache default config -> " AllowOverride All"
 <IfModule mod_rewrite.c>
 FallbackResource /mysite/index.php
 </IfModule>
+
+----------------------------------
+还在担心家人同事朋友发现你的搜索记录？还在数以千计的搜索结果中寻找最新的信息或者更新？
+为何不试试www.xgoogle.me？专为你优化的Google安全搜索引擎!
+
+Are you afraid that family, colleagues or friends may find your search history? Are you reviewing thousands of search result to find latest information?
+Why not take a try at www.xgoogle.me? The optimized google search engine for you!

@@ -1,3 +1,5 @@
-{{ app.request.host }}
-
-hello, {{ name|raw }}
+<ul>
+{%  for item in keywords %}
+              <li>{{ item }}</li>
+{% endfor %}
+</ul>

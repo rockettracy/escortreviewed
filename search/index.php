@@ -32,7 +32,7 @@ foreach ($config['serviceprovider'] as $provider => $options) {
 // ------------------- route -----------
 $app->get('/', function() use($app) {
     return $app['twig']->render('index.twig', array(
-        'name' => $app['hello']('aaaaa')
+        'keywords' => $app['xgoogle.trend']->getTopTenKeywordsInLive()
     ));
 });
 $app->get('/about', function() use($app) {
@@ -48,6 +48,12 @@ $app->get('/contactus', function() use($app) {
 $app->get('/privacy', function() use($app) {
     return $app['twig']->render('privacy.twig', array(
         'name' => $app['hello']('aaaaa')
+    ));
+});
+
+$app->get('/hello', function() use($app) {
+    return $app['twig']->render('hello.twig', array(
+        'keywords' => $app['xgoogle.trend']->getTopTenKeywordsInLive()
     ));
 });
 

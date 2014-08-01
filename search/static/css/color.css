@@ -4,3 +4,12 @@
 .grey {
     color: #888;
 }
+.blue {
+    color: #2071d7;
+}
+.purple {
+    color: #e5d2ea;
+}
+.bg-purple {
+    background-color: #e5d2ea;
+}
