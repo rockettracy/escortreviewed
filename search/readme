@@ -12,6 +12,15 @@ Apache default config -> " AllowOverride All"
 FallbackResource /mysite/index.php
 </IfModule>
 
+3. login amzrategirl
+alias amzescort="ssh -i /Users/kelinliu/.ssh/kelinkey.pem ec2-user@54.214.10.191"
+alias repoescort="cd /Users/kelinliu/work/dev/out/projects/escortreviewed"
+alias iyaya="cd /Users/kelinliu/work/dev/out/projects/escortreviewed/demo/login"
+alias amzbaobaowiki="ssh -i /Users/kelinliu/.ssh/baobaowiki.pem ec2-user@54.214.38.81"
+alias repobaobaowiki="cd /Users/kelinliu/work/dev/out/projects/escortreviewed"
+alias amzrategirl="ssh -i /Users/kelinliu/.ssh/duoduo.pem ec2-user@54.200.111.114"
+
+
 ----------------------------------
 还在担心家人同事朋友发现你的搜索记录？还在数以千计的搜索结果中寻找最新的信息或者更新？
 为何不试试www.xgoogle.me？专为你优化的Google安全搜索引擎!
