@@ -5,7 +5,7 @@ use Silex\Application;
 
 class TrendHandler
 {
-    private $trenders = [];
+    private $trenders = array();
 
     /**
      * @return array

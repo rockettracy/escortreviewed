@@ -22,7 +22,7 @@ class Trend
 
     public function getTopTenKeywordsInLive()
     {
-        $keywords = [];
+        $keywords = array();
         foreach ($this->getTrendHandler()->getTrenders() as $trender) {
            $keywords += $trender->getLiveTopTenKeywords();
         }

@@ -19,7 +19,7 @@ class GoogleTrender extends Trender
     {
         $xml = new \SimpleXmlElement($response);
 
-        $keywords = [];
+        $keywords = array();
         foreach ($xml->channel->item  as $value) {
             $keywords[] = $value->title;
         }
