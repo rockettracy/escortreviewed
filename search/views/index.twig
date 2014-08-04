@@ -4,9 +4,9 @@
     <link rel="stylesheet" href="./static/css/index.css">
     <script type="text/javascript" src="./static/js/index.js" ></script>
     <script>
-        function doSearch(a) {
-            jQuery('input[name=search]').val(a.innerText);
-            jQuery('.gsc-search-button').click();
+        function doSearch(keywords) {
+            jQuery('input[name=search]').val(keywords);
+            //jQuery('.gsc-search-button').click();
         }
     </script>
 {% endblock %}
@@ -43,10 +43,12 @@
 
                 <div class="pure-g">
                     <div class="pure-u-5-6">
-                        <p class="purple-grey marg-h-lg">Google Search Top Ten Trends (Live):</p>
-                        <div class="marg-h-lg">
+                        <p class="purple-grey marg-h-nm">Google Top Ten Search (Live):</p>
+                        <div class="marg-h-sm">
                             {% for item in keywords %}
-                                <a class="pure-button marg-nm blue bg-purple" href="#" onclick="doSearch(this)">{{ item }}</a>
+                                <div class="marg-sm">
+                                <a class="pure-button blue bg-purple" href="#" onclick="javascript:doSearch(this.innerText);">{{ item }}</a>
+                                </div>
                             {% endfor %}
                         </div>
                     </div>

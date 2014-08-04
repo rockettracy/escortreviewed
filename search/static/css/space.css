@@ -2,22 +2,50 @@
     margin-left: 20px;
     margin-right: 20px;
 }
-.marg-top-nm {
+.marg-h-nm {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.marg-h-sm {
+    margin-left: 5px;
+    margin-right: 25px;
+}
+.marg-v-lg {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.marg-v-nm {
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 .marg-v-sm {
     margin-top: 5px;
     margin-bottom: 5px;
 }
+.marg-lg {
+    margin: 20px;
+}
 .marg-nm {
     margin: 10px;
+}
+.marg-sm {
+    margin: 5px;
+}
+.marg-top-lg {
+    margin-top: 20px;
+}
+.marg-top-nm {
+    margin-top: 10px;
+}
+.marg-top-sm {
+    margin-top: 5px;
 }
 
 .pad-top-nm {
     padding-top: 10px;
 }
 .pad-top-lg {
-    padding-top: 25px;
+    padding-top: 20px;
 }
 .pad-left-nm {
     padding-left: 10px;

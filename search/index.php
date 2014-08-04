@@ -37,17 +37,14 @@ $app->get('/', function() use($app) {
 });
 $app->get('/about', function() use($app) {
     return $app['twig']->render('about.twig', array(
-        'name' => $app['hello']('aaaaa')
     ));
 });
 $app->get('/contactus', function() use($app) {
     return $app['twig']->render('contactus.twig', array(
-        'name' => $app['hello']('aaaaa')
     ));
 });
 $app->get('/privacy', function() use($app) {
     return $app['twig']->render('privacy.twig', array(
-        'name' => $app['hello']('aaaaa')
     ));
 });
 
