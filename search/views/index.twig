@@ -5,6 +5,7 @@
     <script type="text/javascript" src="./static/js/index.js" ></script>
     <script>
         function doSearch(keywords) {
+            jQuery('input[name=search]').focus();
             jQuery('input[name=search]').val(keywords);
             //jQuery('.gsc-search-button').click();
         }
@@ -47,7 +48,7 @@
                         <div class="marg-h-sm">
                             {% for item in keywords %}
                                 <div class="marg-sm">
-                                <a class="pure-button blue bg-purple" href="#" onclick="javascript:doSearch(this.innerText);">{{ item }}</a>
+                                <a class="pure-button blue bg-purple" href="javascript:void(0)" onclick="javascript:doSearch(this.innerText);">{{ item }}</a>
                                 </div>
                             {% endfor %}
                         </div>
