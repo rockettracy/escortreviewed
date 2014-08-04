@@ -1,5 +1,5 @@
 .content {
-    margin-top: 7%;
+    margin-top: 6%;
     margin-left: 10%;
 }
 .submit-button {
@@ -16,4 +16,27 @@
 .key-feature {
     font-family: sans-serif;
     font-style: italic;
+}
+a.news-index {
+    text-decoration: none;
+}
+
+/* unvisited link */
+a.news-index:link {
+    color: blue;
+}
+
+/* visited link */
+a.news-index:visited {
+    color: grey;
+}
+
+/* mouse over link */
+a.news-index:hover {
+    color: #FF00FF;
+}
+
+/* selected link */
+a.news-index:active {
+    color: #0000FF;
 }

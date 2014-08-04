@@ -6,7 +6,6 @@ use SearchTime\Utils\Curl;
 class GoogleTrender extends Trender
 {
     const URL = 'http://www.google.com/trends/hottrends/atom/feed?pn=p1';
-    const NUMBER = 10;
 
     public function getLiveTopTenKeywords()
     {
@@ -27,9 +26,9 @@ class GoogleTrender extends Trender
         return $keywords;
     }
 
-    public function getWeekTopTenKeywords()
+    public function getLiveTopTenNews()
     {
-
+        return array();
     }
 
     private function getUrl()

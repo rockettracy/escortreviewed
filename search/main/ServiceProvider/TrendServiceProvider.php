@@ -4,6 +4,7 @@ namespace SearchTime\ServiceProvider;
 use SearchTime\Services\Trend\GoogleTrender;
 use SearchTime\Services\Trend\Trend;
 use SearchTime\Services\Trend\TrendHandler;
+use SearchTime\Services\Trend\YahooTrender;
 use Silex\Application;
 use Silex\ServiceProviderInterface;
 
@@ -17,7 +18,7 @@ class TrendServiceProvider implements ServiceProviderInterface
 
         $app['xgoogle.trendHandler'] = $app->extend('xgoogle.trendHandler', function ($trendHandler) {
             $trendHandler->addTrender(new GoogleTrender());
-            //$trendHandler->addTrender(new YahooTrender($client));
+            $trendHandler->addTrender(new YahooTrender());
             return $trendHandler;
         });
 

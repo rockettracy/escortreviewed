@@ -24,14 +24,19 @@ class Trend
     {
         $keywords = array();
         foreach ($this->getTrendHandler()->getTrenders() as $trender) {
-           $keywords += $trender->getLiveTopTenKeywords();
+           $keywords = array_merge($keywords, $trender->getLiveTopTenKeywords());
         }
 
         return $keywords;
     }
 
-    public function getTopTenKeywordsInWeek()
+    public function getTopTenNewsInLive()
     {
+        $news = array();
+        foreach ($this->getTrendHandler()->getTrenders() as $trender) {
+            $news = array_merge($news, $trender->getLiveTopTenNews());
+        }
 
+        return $news;
     }
 }

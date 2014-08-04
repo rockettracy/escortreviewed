@@ -32,7 +32,8 @@ foreach ($config['serviceprovider'] as $provider => $options) {
 // ------------------- route -----------
 $app->get('/', function() use($app) {
     return $app['twig']->render('index.twig', array(
-        'keywords' => $app['xgoogle.trend']->getTopTenKeywordsInLive()
+        'keywords' => $app['xgoogle.trend']->getTopTenKeywordsInLive(),
+        'news' => $app['xgoogle.trend']->getTopTenNewsInLive()
     ));
 });
 $app->get('/about', function() use($app) {

@@ -19,14 +19,15 @@
         </div>
         
         <div class="pure-g">
-            <div class="pure-u-1-6"></div>
+            <div class="pure-u-1-10"></div>
 
-            <div class="pure-u-2-3">
+            <div class="pure-u-4-5">
                 <p class="pad-left-nm blue">
                     <span class="key-feature font-large">Instant</span><span class="key-feature-desc grey"> - latest result on the top,</span>
                     <span class="key-feature font-large"> Security</span><span class="key-feature-desc grey"> - no tracking or prompting.</span>
                     <span class="font-sm grey pad-left-nm">Extreme google search engine for you!</span>
                 </p>
+                <p class="pad-left-nm font-sm grey">22,000,000+ people are using it now!</p>
 
                 <script>
                     (function() {
@@ -43,7 +44,7 @@
                 <gcse:search></gcse:search>
 
                 <div class="pure-g">
-                    <div class="pure-u-5-6">
+                    <div class="pure-u-1-4">
                         <p class="purple-grey marg-h-nm">Google Top Ten Search (Live):</p>
                         <div class="marg-h-sm">
                             {% for item in keywords %}
@@ -53,12 +54,20 @@
                             {% endfor %}
                         </div>
                     </div>
-                    <div class="pure-u-1-6">
+                    <div class="pure-u-3-4">
+                        <p class="purple-grey marg-h-nm">Top Ten World News (Live):</p>
+                        <div class="marg-h-sm">
+                            {% for item in news %}
+                                <div class="marg-nm font-nm">
+                                    <p><a class="blue news-index" href="{{ item['link'] }}" target="_blank"><span class="news-index marg-r-xsm">{{ item['index'] }}.</span>{{ item['headline'] }}</a></p>
+                                </div>
+                            {% endfor %}
+                        </div>
                     </div>
                 </div>
             </div>
 
-            <div class="pure-u-1-6"></div>
+            <div class="pure-u-1-10"></div>
         </div>
     </div>
 {% endblock %}
