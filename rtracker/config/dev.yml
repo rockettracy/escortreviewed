@@ -1,7 +1,0 @@
-database:
-  driver:   pdo_mysql
-  dbhost:   localhost
-  dbname:   silexauth
-  user:     silex
-  password: password
-  charset:  utf8
